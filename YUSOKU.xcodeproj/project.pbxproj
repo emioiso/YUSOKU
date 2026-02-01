@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8595755D2F2E17FF00801601 /* Exceptions for "YUSOKU" folder in "YUSOKU" target */ = {
+		857667B52F2F038100213B43 /* Exceptions for "YUSOKU" folder in "YUSOKU" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,7 @@
 		859575372F2E17FE00801601 /* YUSOKU */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				8595755D2F2E17FF00801601 /* Exceptions for "YUSOKU" folder in "YUSOKU" target */,
+				857667B52F2F038100213B43 /* Exceptions for "YUSOKU" folder in "YUSOKU" target */,
 			);
 			path = YUSOKU;
 			sourceTree = "<group>";

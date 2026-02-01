@@ -39,12 +39,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="8dy-vb-Oi0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
                                 <rect key="frame" x="135" y="499" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <connections>
+                                    <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lta-9w-Fdb"/>
@@ -199,12 +205,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="nse-7U-aKt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
                                 <rect key="frame" x="137" y="513" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <connections>
+                                    <segue destination="bEU-X5-tCf" kind="show" id="MCM-Tb-nQS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="女脱衣所は配管が壊れて修繕中です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekw-Fl-OFA">
                                 <rect key="frame" x="58" y="194" width="263" height="21"/>
@@ -258,12 +270,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="fYT-dn-v4r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGx-VX-Kug">
                                 <rect key="frame" x="133" y="509" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <connections>
+                                    <segue destination="bEU-X5-tCf" kind="show" id="B9I-aW-IaA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gZe-VS-yCf"/>
@@ -274,6 +292,300 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dvz-rC-nOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1596" y="783"/>
+        </scene>
+        <!--Guest In The Bath-->
+        <scene sceneID="HQC-eB-I75">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="cd3-wB-LkW" customClass="GuestInTheBath" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rp1-6B-7Xt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ゲスト入浴をする" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoD-OE-zWw">
+                                <rect key="frame" x="123" y="68" width="128" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ube-W9-RG7">
+                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
+                                <connections>
+                                    <segue destination="GTR-XQ-7kx" kind="show" id="YhJ-q7-Ot5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h37-t9-Bi6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J8u-e8-IEe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xjy-c1-ysi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2320.8000000000002" y="784.85757121439292"/>
+        </scene>
+        <!--Jouren In The Bath-->
+        <scene sceneID="xLD-XL-cYU">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="bEU-X5-tCf" customClass="jourenInTheBath" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5WL-u3-Dsi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
+                                <rect key="frame" x="147" y="63" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
+                                <rect key="frame" x="16" y="172" width="343" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">常連になるとは？
+
+常連を選択すると、あみだ湯に来た誰かのお風呂代を
+遠隔で支えることができます。
+入金は500円単位、恐れ入りますが、振り込み手数料は常連さんのご負担となります。
+返金はできません。
+また、通帳記入時に「何人分の奢り風呂があったか」をまとめてお知らせする場合があります。
+が、まだ何も決まっていないので決まり次第、
+どこかの何かで発表します。</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
+                                <rect key="frame" x="111" y="574" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="rvP-1e-MYp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
+                                <rect key="frame" x="24" y="447" width="327" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="常連になるに同意したので銀行口座を見る"/>
+                                <connections>
+                                    <segue destination="xFg-4l-0F3" kind="show" id="Ehk-61-44n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlM-AB-DU4">
+                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
+                                <connections>
+                                    <segue destination="D5B-8a-BDJ" kind="show" id="WuD-NT-TKX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3r2-I5-4WM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j2P-Or-Mkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3020" y="784.85757121439292"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BQV-HR-k70">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="xFg-4l-0F3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mYY-CH-WXZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-4d-nVI">
+                                <rect key="frame" x="111" y="573" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="IxW-T1-nXq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-NF-2G6">
+                                <rect key="frame" x="1" y="515" width="374" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="本当に常連になるを理解したので銀行口座を見る"/>
+                                <connections>
+                                    <segue destination="xow-fb-brt" kind="show" id="KFn-YR-FGH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcO-AJ-Vn3">
+                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
+                                <connections>
+                                    <segue destination="D5B-8a-BDJ" kind="show" id="f3g-Yz-ea2"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Ah-oz-j0A">
+                                <rect key="frame" x="16" y="90" width="343" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">常連になる方へ（仕組みの説明と同意）
+
+このアプリでは、
+「ゲストとして入浴する」か
+「あみだ湯の常連になる」かを、あなた自身に選んでもらいます。
+
+「常連になる」を選んだ場合
+
+常連の方は、
+あみだ湯に来た誰かのお風呂代を、遠隔でそっと奢る
+という関わり方ができます。
+
+この仕組みは、
+
+特定の人を指定するものではありません
+
+見返りや特典を受け取るものではありません
+
+「今日は誰かがあたたまれたらいいな」という気持ちを預ける行為です
+
+入金について
+
+入金は 500円単位 でお願いします
+
+表示されるのは あみだ湯の銀行口座 です
+
+振り込み手数料は、入金される方のご負担となります
+
+そのため、
+👉 「500円 × 口数 ＋ 振り込み手数料」
+を合わせた金額をお振り込みください。
+
+返金について（重要）
+
+この入金は、
+いかなる理由があっても返金できません。
+
+商品購入ではありません
+
+サービス提供の対価ではありません
+
+後日の取り消し・返金対応はできません
+
+その点を理解した上でのご参加をお願いします。
+
+奢りの記録について
+
+奢っていただいたこと自体は、
+何らかの形で分かるように記録したいと考えています。
+
+ただし、
+
+個人名や金額の詳細を公開することはありません
+
+リアルタイムでの反映ではありません
+
+通帳記入を行ったタイミングで、
+「いつ」「何人分の奢り風呂があったか」
+という形で、まとめてお知らせする予定です。
+
+これは、
+
+誰が奢ったかを示すためではなく
+
+「今日は何人分、誰かがあたたまれた」という事実を共有するためのものです
+
+同意について
+
+この仕組みを理解し、
+返金不可であること、記録の扱いについても同意いただけた方のみ
+次の画面で口座情報を表示します。
+
+「常連になる」という選択は、
+義務ではなく、いつでも選ばなくてよいものです。</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hsb-LZ-UKD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tjB-FS-raI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OuJ-HV-T5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3677.5999999999999" y="784.85757121439292"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4gt-ae-A4X">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="xow-fb-brt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OOW-Bd-FOw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
+                                <rect key="frame" x="111" y="574" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="sWP-mw-knd"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
+                                <rect key="frame" x="67" y="97" width="240" height="431"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">① 銀行名
+
+銀行
+
+② 支店名（または支店番号）
+
+支店（123）
+
+③ 口座種別
+
+普通
+
+④ 口座番号
+
+7桁など（表示された番号）
+
+⑤ 口座名義
+
+海浜あみだ湯労働者共同組合
+（※カタカナ表記）</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdC-dF-3Wj">
+                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
+                                <connections>
+                                    <segue destination="D5B-8a-BDJ" kind="show" id="w0F-NM-bhB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jTR-AD-4Zx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="baO-Ri-2WD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Enn-hi-K6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4357.6000000000004" y="784.85757121439292"/>
         </scene>
         <!--Machiaishitu-->
         <scene sceneID="1Jt-q6-loQ">
@@ -322,12 +634,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <connections>
+                                    <segue destination="bEU-X5-tCf" kind="show" id="mIg-hL-7hN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
                                 <rect key="frame" x="111" y="466" width="152" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="c8x-Rj-vCC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZW0-mg-cu8"/>
@@ -368,11 +686,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sVH-9R-Syh"/>
+        <segue reference="w0F-NM-bhB"/>
+        <segue reference="B9I-aW-IaA"/>
+        <segue reference="sWP-mw-knd"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="JJ6-8q-zYT"/>
+        <segue reference="YhJ-q7-Ot5"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

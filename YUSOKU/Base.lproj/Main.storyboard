@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDe-at-8ZW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2962" y="107"/>
+            <point key="canvasLocation" x="2960.8000000000002" y="106.59670164917542"/>
         </scene>
         <!--Blacked Out Consent Form-->
         <scene sceneID="Fbs-Vm-gcG">
@@ -165,6 +165,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tanakaKuronuri" translatesAutoresizingMaskIntoConstraints="NO" id="oSZ-GD-C7i">
+                                <rect key="frame" x="64" y="313" width="240" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8lE-ni-zA0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -396,10 +400,10 @@
             </objects>
             <point key="canvasLocation" x="3020" y="784.85757121439292"/>
         </scene>
-        <!--View Controller-->
+        <!--Jouren Gachi Pay-->
         <scene sceneID="BQV-HR-k70">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xFg-4l-0F3" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xFg-4l-0F3" customClass="jourenGachiPay" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mYY-CH-WXZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -435,7 +439,7 @@
                                 <rect key="frame" x="16" y="90" width="343" height="392"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">常連になる方へ（仕組みの説明と同意）
+                                <string key="text">常連になる方へ（仕組みの説明と同意）
 
 このアプリでは、
 「ゲストとして入浴する」か
@@ -508,7 +512,7 @@
 次の画面で口座情報を表示します。
 
 「常連になる」という選択は、
-義務ではなく、いつでも選ばなくてよいものです。</mutableString>
+義務ではなく、いつでも選ばなくてよいものです。</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -523,10 +527,10 @@
             </objects>
             <point key="canvasLocation" x="3677.5999999999999" y="784.85757121439292"/>
         </scene>
-        <!--View Controller-->
+        <!--Bank Number-->
         <scene sceneID="4gt-ae-A4X">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xow-fb-brt" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xow-fb-brt" customClass="bankNumber" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OOW-Bd-FOw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -596,16 +600,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
-                                <rect key="frame" x="45" y="31" width="61" height="35"/>
+                                <rect key="frame" x="22" y="31" width="108" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="◀︎♨️"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎またネ♨️"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pty-i6-O5C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
-                                <rect key="frame" x="79" y="336" width="56" height="35"/>
+                                <rect key="frame" x="74" y="387" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="男湯"/>
@@ -614,7 +618,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
-                                <rect key="frame" x="239" y="336" width="56" height="35"/>
+                                <rect key="frame" x="240" y="387" width="56" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="女湯"/>
@@ -647,6 +651,17 @@
                                     <segue destination="cd3-wB-LkW" kind="show" id="c8x-Rj-vCC"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKUkun_bandai" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-zl-6Z7">
+                                <rect key="frame" x="46" y="131" width="283" height="231"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＼ イラッシャイマセ！ ／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
+                                <rect key="frame" x="95" y="87" width="184" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZW0-mg-cu8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -655,7 +670,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j3B-ie-xB2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817" y="110"/>
+            <point key="canvasLocation" x="816.79999999999995" y="109.29535232383809"/>
         </scene>
         <!--Genkan-->
         <scene sceneID="tne-QT-ifu">
@@ -671,7 +686,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="♨️"/>
                                 <connections>
-                                    <segue destination="D5B-8a-BDJ" kind="show" id="eLP-4e-wL9"/>
+                                    <segue destination="D5B-8a-BDJ" kind="show" id="UUe-sq-fJV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -686,13 +701,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="w0F-NM-bhB"/>
-        <segue reference="B9I-aW-IaA"/>
-        <segue reference="sWP-mw-knd"/>
-        <segue reference="k72-Cc-SK3"/>
-        <segue reference="YhJ-q7-Ot5"/>
+        <segue reference="UUe-sq-fJV"/>
+        <segue reference="mIg-hL-7hN"/>
+        <segue reference="IxW-T1-nXq"/>
+        <segue reference="O47-U2-Goa"/>
+        <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="YUKIROKUkun_bandai" width="1165" height="1259"/>
+        <image name="tanakaKuronuri" width="1170" height="1426"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -44,10 +44,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
-                                <rect key="frame" x="135" y="499" width="104" height="35"/>
+                                <rect key="frame" x="119" y="499" width="136" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
                                 </connections>
@@ -281,10 +281,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
-                                <rect key="frame" x="137" y="513" width="104" height="35"/>
+                                <rect key="frame" x="121" y="513" width="136" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="MCM-Tb-nQS"/>
                                 </connections>
@@ -346,10 +346,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGx-VX-Kug">
-                                <rect key="frame" x="133" y="509" width="104" height="35"/>
+                                <rect key="frame" x="117" y="509" width="136" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="B9I-aW-IaA"/>
                                 </connections>
@@ -406,30 +406,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
-                                <rect key="frame" x="147" y="63" width="80" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遠隔常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
+                                <rect key="frame" x="131" y="63" width="112" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
-                                <rect key="frame" x="16" y="172" width="343" height="189"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">常連になるとは？
-
-常連を選択すると、あみだ湯に来た誰かのお風呂代を
-遠隔で支えることができます。
-入金は500円単位、恐れ入りますが、振り込み手数料は常連さんのご負担となります。
-返金はできません。
-また、通帳記入時に「何人分の奢り風呂があったか」をまとめてお知らせする場合があります。
-が、まだ何も決まっていないので決まり次第、
-どこかの何かで発表します。</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
                                 <rect key="frame" x="111" y="574" width="152" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -440,10 +423,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
-                                <rect key="frame" x="24" y="447" width="327" height="35"/>
+                                <rect key="frame" x="9" y="447" width="358" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="常連になるに同意したので銀行口座を見る"/>
+                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になるに同意したので銀行口座を見る"/>
                                 <connections>
                                     <segue destination="xFg-4l-0F3" kind="show" id="Ehk-61-44n"/>
                                 </connections>
@@ -457,6 +440,25 @@
                                     <segue destination="D5B-8a-BDJ" kind="show" id="WuD-NT-TKX"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
+                                <rect key="frame" x="16" y="127" width="343" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">♨️遠隔常連になるとは？♨️
+
+遠隔常連を選択すると、
+XXX湯に来た誰かのお風呂代を
+遠隔で支えることができます。
+
+入金は500円単位、恐れ入りますが、振り込み手数料は遠隔常連さんのご負担となります。
+返金はできません。
+また、通帳記入時に「何人分の奢り風呂があったか」をまとめてお知らせする場合があります。
+が、まだ何も決まっていないので決まり次第、
+どこかの何かで発表します。</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -485,10 +487,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-NF-2G6">
-                                <rect key="frame" x="1" y="515" width="374" height="35"/>
+                                <rect key="frame" x="-22" y="515" width="422" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="本当に常連になるを理解したので銀行口座を見る"/>
+                                <buttonConfiguration key="configuration" style="filled" title="本当に遠隔常連になる事を理解したので銀行口座を見る"/>
                                 <connections>
                                     <segue destination="xow-fb-brt" kind="show" id="KFn-YR-FGH"/>
                                 </connections>
@@ -506,16 +508,16 @@
                                 <rect key="frame" x="16" y="90" width="343" height="392"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">常連になる方へ（仕組みの説明と同意）
+                                <mutableString key="text">遠隔常連になる方へ（仕組みの説明と同意）
 
 このアプリでは、
 「ゲストとして入浴する」か
-「あみだ湯の常連になる」かを、あなた自身に選んでもらいます。
+「XXX湯の遠隔常連になる」かを、あなた自身に選んでもらいます。
 
-「常連になる」を選んだ場合
+「遠隔常連になる」を選んだ場合
 
-常連の方は、
-あみだ湯に来た誰かのお風呂代を、遠隔でそっと奢る
+遠隔常連の方は、
+XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
 という関わり方ができます。
 
 この仕組みは、
@@ -530,7 +532,7 @@
 
 入金は 500円単位 でお願いします
 
-表示されるのは あみだ湯の銀行口座 です
+表示されるのは、XXX湯の銀行口座 です
 
 振り込み手数料は、入金される方のご負担となります
 
@@ -578,8 +580,8 @@
 返金不可であること、記録の扱いについても同意いただけた方のみ
 次の画面で口座情報を表示します。
 
-「常連になる」という選択は、
-義務ではなく、いつでも選ばなくてよいものです。</string>
+「遠隔常連になる」という選択は、
+義務ではなく、いつでも選ばなくてよいものです。</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -633,7 +635,7 @@
 
 ⑤ 口座名義
 
-海浜あみだ湯労働者共同組合
+XXX湯労働者共同組合
 （※カタカナ表記）</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -701,10 +703,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
-                                <rect key="frame" x="135" y="509" width="104" height="35"/>
+                                <rect key="frame" x="119" y="509" width="136" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="常連になる"/>
+                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="mIg-hL-7hN"/>
                                 </connections>
@@ -768,11 +770,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UUe-sq-fJV"/>
-        <segue reference="mIg-hL-7hN"/>
-        <segue reference="c8x-Rj-vCC"/>
+        <segue reference="f3g-Yz-ea2"/>
+        <segue reference="qqm-gr-Pl7"/>
+        <segue reference="IxW-T1-nXq"/>
         <segue reference="rcw-se-rBH"/>
-        <segue reference="2pb-bu-Cya"/>
+        <segue reference="k72-Cc-SK3"/>
         <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>

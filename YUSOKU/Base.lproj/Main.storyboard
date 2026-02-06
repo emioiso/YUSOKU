@@ -113,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdY-Y5-cAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1575" y="109"/>
+            <point key="canvasLocation" x="1546" y="107"/>
         </scene>
         <!--Lockers For Tanaka-->
         <scene sceneID="OgA-uf-dqS">
@@ -380,45 +380,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A5-xI-wme">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A5-xI-wme">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="aLH-hp-EbQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yy-JQ-wPG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yy-JQ-wPG">
                                 <rect key="frame" x="164" y="316" width="47" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="🙇🏻‍♀️"/>
-                                <connections>
-                                    <segue destination="ii8-8f-8m4" kind="show" id="fU1-YZ-rEv"/>
-                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJt-If-Du8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJt-If-Du8">
                                 <rect key="frame" x="111" y="453" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
                                     <segue destination="cd3-wB-LkW" kind="show" id="nse-7U-aKt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
                                 <rect key="frame" x="121" y="513" width="136" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="MCM-Tb-nQS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="女脱衣所は配管が壊れて修繕中です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekw-Fl-OFA">
-                                <rect key="frame" x="58" y="194" width="263" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="女脱衣所は配管が壊れて修繕中です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekw-Fl-OFA">
+                                <rect key="frame" x="58" y="194" width="263" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="リフォーム中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzO-a3-xAo">
+                                <rect key="frame" x="139" y="223" width="96" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -426,12 +424,42 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HUZ-hr-1Nt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="ekw-Fl-OFA" secondAttribute="trailing" constant="54" id="6Kk-eY-cgA"/>
+                            <constraint firstItem="bJt-If-Du8" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="453" id="78m-4n-MBR"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="bJt-If-Du8" secondAttribute="bottom" constant="179" id="87R-y8-LLt"/>
+                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="316" id="8Zq-NV-uIX"/>
+                            <constraint firstItem="ekw-Fl-OFA" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="194" id="8eL-sk-6vr"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="1yy-JQ-wPG" secondAttribute="trailing" constant="164" id="JuB-6s-JTM"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="oXX-3a-27t" secondAttribute="bottom" constant="119" id="KkU-uA-1U7"/>
+                            <constraint firstItem="bJt-If-Du8" firstAttribute="top" secondItem="1yy-JQ-wPG" secondAttribute="bottom" constant="102" id="O2L-Ff-ond"/>
+                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="top" secondItem="FzO-a3-xAo" secondAttribute="bottom" constant="72" id="ORA-uH-RiO"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="6A5-xI-wme" secondAttribute="trailing" constant="203" id="SOw-5d-OtB"/>
+                            <constraint firstItem="FzO-a3-xAo" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="139" id="Sg6-ab-7fu"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="ekw-Fl-OFA" secondAttribute="bottom" constant="452" id="cFX-KC-eri"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="oXX-3a-27t" secondAttribute="trailing" constant="118" id="cYe-XK-5l0"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="bJt-If-Du8" secondAttribute="trailing" constant="112" id="fY3-k4-LWg"/>
+                            <constraint firstItem="bJt-If-Du8" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="111" id="h1H-PV-xzg"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="6A5-xI-wme" secondAttribute="bottom" constant="612" id="i8B-Ps-kZH"/>
+                            <constraint firstItem="oXX-3a-27t" firstAttribute="top" secondItem="bJt-If-Du8" secondAttribute="bottom" constant="25" id="je9-1l-1mY"/>
+                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="164" id="lBj-9z-5H2"/>
+                            <constraint firstItem="FzO-a3-xAo" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="223" id="m4u-SN-tSo"/>
+                            <constraint firstItem="FzO-a3-xAo" firstAttribute="firstBaseline" secondItem="ekw-Fl-OFA" secondAttribute="baseline" constant="20.5" symbolType="layoutAnchor" id="mSf-Qw-NKs"/>
+                            <constraint firstItem="6A5-xI-wme" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="16" id="nbd-AA-h5L"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="1yy-JQ-wPG" secondAttribute="bottom" constant="316" id="ncA-Xj-xvz"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="FzO-a3-xAo" secondAttribute="trailing" constant="140" id="ngb-QS-xiS"/>
+                            <constraint firstItem="6A5-xI-wme" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="20" id="oYZ-CR-VdG"/>
+                            <constraint firstItem="oXX-3a-27t" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="121" id="pau-FH-ncu"/>
+                            <constraint firstItem="ekw-Fl-OFA" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="58" id="ufm-s5-Vm4"/>
+                            <constraint firstItem="oXX-3a-27t" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="513" id="vRs-3W-EmK"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="FzO-a3-xAo" secondAttribute="bottom" constant="423" id="wNk-xT-Hqr"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UtN-qu-pqb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMm-to-gNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817" y="785"/>
+            <point key="canvasLocation" x="796" y="816"/>
         </scene>
         <!--Onnayu shazai-->
         <scene sceneID="NWa-pN-rRx">
@@ -489,7 +517,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dvz-rC-nOS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1596" y="783"/>
+            <point key="canvasLocation" x="1545" y="889"/>
         </scene>
         <!--Guest In The Bath-->
         <scene sceneID="HQC-eB-I75">
@@ -512,7 +540,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
-                                    <segue destination="GTR-XQ-7kx" kind="show" id="YhJ-q7-Ot5"/>
+                                    <segue destination="D5B-8a-BDJ" kind="show" id="tkF-Y9-ffA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="リフォーム中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAF-Zk-z4g">
@@ -530,7 +558,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjy-c1-ysi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2320.8000000000002" y="784.85757121439292"/>
+            <point key="canvasLocation" x="2292" y="889"/>
         </scene>
         <!--Jouren In The Bath-->
         <scene sceneID="xLD-XL-cYU">
@@ -540,34 +568,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="遠隔常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
-                                <rect key="frame" x="131" y="63" width="112" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="遠隔常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
+                                <rect key="frame" x="131" y="63" width="112" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
                                 <rect key="frame" x="9" y="447" width="358" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遠隔常連になるに同意したので銀行口座を見る"/>
                                 <connections>
                                     <segue destination="xFg-4l-0F3" kind="show" id="Ehk-61-44n"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlM-AB-DU4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlM-AB-DU4">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="WuD-NT-TKX"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
-                                <rect key="frame" x="16" y="127" width="343" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
+                                <rect key="frame" x="16" y="127" width="343" height="311"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">♨️遠隔常連になるとは？♨️
 
@@ -584,9 +608,8 @@ XXX湯に来た誰かのお風呂代を
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
                                 <rect key="frame" x="112" y="548" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
@@ -596,6 +619,31 @@ XXX湯に来た誰かのお風呂代を
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="i2e-di-gtM" secondAttribute="trailing" constant="111" id="0lC-IX-1LI"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="273" id="4b6-BD-ee7"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="nlM-AB-DU4" secondAttribute="bottom" constant="612" id="9Qa-WN-Xad"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="9" id="A8L-6P-tCP"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="20" id="CA4-4Z-pLi"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="Cy1-dA-m3S"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="583" id="Del-35-3Rt"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="pSt-8c-g4Q" secondAttribute="trailing" constant="8" id="K7m-Qy-dbo"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="185" id="Mc8-mT-ZzW"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="0ef-qp-JvG" secondAttribute="trailing" constant="16" id="SCk-3h-lGx"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="131" id="SoK-nM-D9D"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="i2e-di-gtM" secondAttribute="bottom" constant="84" id="YBk-Nj-yc3"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="DyI-61-h9c" secondAttribute="trailing" constant="132" id="YLq-w1-wQ8"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="bDN-rH-2jx"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="63" id="bay-v6-PaH"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="127" id="c3J-HQ-9aW"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="447" id="dJa-AC-NPy"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="firstBaseline" secondItem="0ef-qp-JvG" secondAttribute="baseline" constant="32" symbolType="layoutAnchor" id="kOh-CZ-Ze9"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="firstBaseline" secondItem="DyI-61-h9c" secondAttribute="baseline" constant="17.5" symbolType="layoutAnchor" id="nUP-Zl-pbH"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="66" id="o6i-JB-qw5"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="112" id="sOQ-gi-6W6"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="nlM-AB-DU4" secondAttribute="trailing" constant="203" id="uNN-4r-1iF"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="548" id="vve-mF-A0j"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3r2-I5-4WM"/>
                 </viewController>
@@ -1230,7 +1278,7 @@ XXX湯労働者共同組合
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fj-rg-ogv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1573.5999999999999" y="-600.44977511244383"/>
+            <point key="canvasLocation" x="1545" y="-852"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7oJ-Ia-S9j">
@@ -1255,7 +1303,7 @@ XXX湯労働者共同組合
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibr-cn-FPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2240.8000000000002" y="-600.44977511244383"/>
+            <point key="canvasLocation" x="2226" y="-852"/>
         </scene>
         <!--Machiaishitu-->
         <scene sceneID="1Jt-q6-loQ">
@@ -1400,12 +1448,12 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sVH-9R-Syh"/>
+        <segue reference="WuD-NT-TKX"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="qqm-gr-Pl7"/>
-        <segue reference="8dy-vb-Oi0"/>
+        <segue reference="B9I-aW-IaA"/>
+        <segue reference="rvP-1e-MYp"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="O47-U2-Goa"/>
+        <segue reference="k72-Cc-SK3"/>
         <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>

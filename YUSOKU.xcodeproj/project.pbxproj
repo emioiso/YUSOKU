@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8585BDC42F34B786000C9076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8585BDC32F34B786000C9076 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8595754C2F2E17FF00801601 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8585BDC32F34B786000C9076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859575352F2E17FE00801601 /* YUSOKU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUSOKU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595754B2F2E17FF00801601 /* YUSOKUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUSOKUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859575552F2E17FF00801601 /* YUSOKUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUSOKUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +93,7 @@
 		8595752C2F2E17FE00801601 = {
 			isa = PBXGroup;
 			children = (
+				8585BDC32F34B786000C9076 /* Assets.xcassets */,
 				859575372F2E17FE00801601 /* YUSOKU */,
 				8595754E2F2E17FF00801601 /* YUSOKUTests */,
 				859575582F2E17FF00801601 /* YUSOKUUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8585BDC42F34B786000C9076 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

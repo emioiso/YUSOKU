@@ -1196,27 +1196,24 @@ XXX湯労働者共同組合
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
                                 <rect key="frame" x="22" y="31" width="108" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎またネ♨️"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pty-i6-O5C"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
                                 <rect key="frame" x="74" y="387" width="56" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="男湯"/>
                                 <connections>
                                     <segue destination="GTR-XQ-7kx" kind="show" id="iVa-tV-zlj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
                                 <rect key="frame" x="240" y="387" width="56" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="女湯"/>
                                 <connections>
@@ -1230,38 +1227,33 @@ XXX湯労働者共同組合
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
                                 <rect key="frame" x="119" y="509" width="136" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="mIg-hL-7hN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
                                 <rect key="frame" x="111" y="466" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
                                     <segue destination="cd3-wB-LkW" kind="show" id="c8x-Rj-vCC"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-zl-6Z7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="nBe-zl-6Z7">
                                 <rect key="frame" x="46" y="131" width="283" height="231"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＼ イラッシャイマセ！ ／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＼ イラッシャイマセ！ ／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
                                 <rect key="frame" x="95" y="87" width="184" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04O-R0-tDU">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04O-R0-tDU">
                                 <rect key="frame" x="300" y="327" width="47" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="🚪"/>
                                 <connections>
@@ -1271,6 +1263,33 @@ XXX湯労働者共同組合
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZW0-mg-cu8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hvZ-Jf-6cV" firstAttribute="leading" secondItem="I2a-iT-jT3" secondAttribute="trailing" constant="110" id="0bs-hQ-nns"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="nBe-zl-6Z7" secondAttribute="trailing" constant="46" id="1eb-Pk-gqX"/>
+                            <constraint firstItem="nBe-zl-6Z7" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="46" id="2cu-Tq-5pR"/>
+                            <constraint firstItem="I2a-iT-jT3" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="74" id="3BJ-oK-Hkb"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="CQv-rd-ndd" secondAttribute="bottom" constant="601" id="8L2-fi-rEY"/>
+                            <constraint firstItem="aB0-i5-tkF" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="111" id="8dN-it-lcl"/>
+                            <constraint firstItem="hvZ-Jf-6cV" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="387" id="9XE-pH-GDY"/>
+                            <constraint firstItem="pWM-3Y-u2I" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="95" id="9eL-SY-5Qe"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="if5-VX-aB8" secondAttribute="trailing" constant="120" id="BgH-j2-XXz"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="CQv-rd-ndd" secondAttribute="trailing" constant="245" id="EEX-AZ-nVL"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="pWM-3Y-u2I" secondAttribute="bottom" constant="559" id="Fhj-Sd-A5z"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="hvZ-Jf-6cV" secondAttribute="trailing" constant="79" id="Fr9-UA-Uxy"/>
+                            <constraint firstItem="pWM-3Y-u2I" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="87" id="Jyz-o6-bgW"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="I2a-iT-jT3" secondAttribute="bottom" constant="245" id="KVY-Bl-cR6"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="aB0-i5-tkF" secondAttribute="trailing" constant="112" id="KmH-eJ-jNO"/>
+                            <constraint firstItem="04O-R0-tDU" firstAttribute="leading" secondItem="nBe-zl-6Z7" secondAttribute="trailing" constant="-29" id="W7d-QL-bzw"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="hvZ-Jf-6cV" secondAttribute="bottom" constant="245" id="Xi8-oh-soy"/>
+                            <constraint firstItem="CQv-rd-ndd" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="22" id="YJb-Wr-bct"/>
+                            <constraint firstItem="if5-VX-aB8" firstAttribute="top" secondItem="aB0-i5-tkF" secondAttribute="bottom" constant="8" symbolic="YES" id="Z9A-ca-gv1"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="if5-VX-aB8" secondAttribute="bottom" constant="123" id="iQJ-B0-8WD"/>
+                            <constraint firstItem="I2a-iT-jT3" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="387" id="iVS-jb-Rff"/>
+                            <constraint firstItem="CQv-rd-ndd" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="31" id="l0H-Ve-1hs"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="pWM-3Y-u2I" secondAttribute="trailing" constant="96" id="rwg-6e-omh"/>
+                            <constraint firstItem="if5-VX-aB8" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="119" id="xXh-cW-oQY"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="04O-R0-tDU" secondAttribute="trailing" constant="28" id="ySl-fH-99k"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WAS-zz-pzc"/>
                 </viewController>
@@ -1312,13 +1331,14 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="cJl-Yh-Kmt"/>
         <segue reference="Nvf-Ja-y4E"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="B9I-aW-IaA"/>
-        <segue reference="fYT-dn-v4r"/>
+        <segue reference="mIg-hL-7hN"/>
+        <segue reference="c8x-Rj-vCC"/>
         <segue reference="rcw-se-rBH"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="YhJ-q7-Ot5"/>
+        <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKukunBandai" width="1165" height="1259"/>

@@ -152,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNG-JL-VwS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2941.5999999999999" y="-645.42728635682158"/>
+            <point key="canvasLocation" x="2942" y="-600"/>
         </scene>
         <!--TanakaRTA-->
         <scene sceneID="B1L-2R-cgI">
@@ -721,7 +721,7 @@ XXX湯労働者共同組合
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5k-PL-GsU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-696.79999999999995" y="-556.37181409295351"/>
+            <point key="canvasLocation" x="-543" y="-600"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VkM-wV-Xfu">
@@ -877,7 +877,7 @@ XXX湯労働者共同組合
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWa-Ix-amR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40.799999999999997" y="-580.65967016491754"/>
+            <point key="canvasLocation" x="137" y="-600"/>
         </scene>
         <!--Ukun Room-->
         <scene sceneID="GGC-Gd-f06">
@@ -1028,10 +1028,6 @@ XXX湯労働者共同組合
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKukunRoom" translatesAutoresizingMaskIntoConstraints="NO" id="L85-Pp-9g1">
-                                <rect key="frame" x="27" y="265" width="30" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Z2-Av-o8z">
                                 <rect key="frame" x="8" y="427" width="47" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1048,6 +1044,10 @@ XXX湯労働者共同組合
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iiyudaner" translatesAutoresizingMaskIntoConstraints="NO" id="iy4-ih-aF6">
+                                <rect key="frame" x="24" y="265" width="35" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qtC-Rz-x5c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1239,12 +1239,12 @@ XXX湯労働者共同組合
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34.399999999999999" y="110.19490254872565"/>
+            <point key="canvasLocation" x="137" y="109"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WuD-NT-TKX"/>
-        <segue reference="df7-hL-HUl"/>
+        <segue reference="hM1-D2-RYI"/>
+        <segue reference="AvQ-PU-43V"/>
         <segue reference="mIg-hL-7hN"/>
         <segue reference="rvP-1e-MYp"/>
         <segue reference="rcw-se-rBH"/>
@@ -1253,7 +1253,6 @@ XXX湯労働者共同組合
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKukunBandai" width="1165" height="1259"/>
-        <image name="YUKIROKukunRoom" width="1024" height="1024"/>
         <image name="iiyudaner" width="1162" height="1333"/>
         <image name="tanakaKuronuri" width="1170" height="1426"/>
         <systemColor name="labelColor">

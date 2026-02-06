@@ -238,18 +238,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqt-FK-Die">
-                                <rect key="frame" x="16" y="20" width="277" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqt-FK-Die">
+                                <rect key="frame" x="16" y="20" width="277" height="40"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)のロッカーに戻る"/>
                                 <connections>
                                     <segue destination="15e-cm-eqr" kind="show" id="2pb-bu-Cya"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="タナカさん(仮)風呂RTA記録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlQ-3n-4dG">
-                                <rect key="frame" x="82" y="90" width="211" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="タナカさん(仮)風呂RTA記録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlQ-3n-4dG">
+                                <rect key="frame" x="82" y="90" width="211" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -261,9 +259,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-Wt-idb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-Wt-idb">
                                 <rect key="frame" x="0.0" y="147" width="375" height="343"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">2025/12/31(水)24:14.72
 
@@ -288,9 +285,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O30-Lz-ccR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O30-Lz-ccR">
                                 <rect key="frame" x="102" y="506" width="273" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="YUKIROKUkunの記録のお部屋🚪"/>
                                 <connections>
@@ -300,6 +296,26 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="97h-oQ-GmO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="O30-Lz-ccR" secondAttribute="trailing" id="24q-U5-F3O"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="O30-Lz-ccR" secondAttribute="bottom" constant="126" id="4a8-fe-SwG"/>
+                            <constraint firstItem="O30-Lz-ccR" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="506" id="HOF-aJ-thF"/>
+                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="90" id="Ive-m7-AZG"/>
+                            <constraint firstItem="O30-Lz-ccR" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="102" id="Jgk-wm-O1b"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="top" secondItem="nlQ-3n-4dG" secondAttribute="bottom" constant="30" id="K12-lr-zox"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="Pf1-Wt-idb" secondAttribute="bottom" constant="177" id="OdZ-6O-COQ"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="nlQ-3n-4dG" secondAttribute="bottom" constant="556" id="PED-6A-Yhl"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="Sqt-FK-Die" secondAttribute="bottom" constant="612" id="Qr2-4w-1Hd"/>
+                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="82" id="Xbk-xN-e9u"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="Sqt-FK-Die" secondAttribute="trailing" constant="82" id="ZGL-kg-d5s"/>
+                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="top" secondItem="Sqt-FK-Die" secondAttribute="bottom" constant="30" id="an0-kN-RFW"/>
+                            <constraint firstItem="Sqt-FK-Die" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="16" id="ePB-cI-Di9"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="nlQ-3n-4dG" secondAttribute="trailing" constant="82" id="iwa-eM-8x6"/>
+                            <constraint firstItem="Sqt-FK-Die" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="20" id="m7T-J0-BCg"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="147" id="o22-GJ-q9E"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" id="okV-px-MNl"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="Pf1-Wt-idb" secondAttribute="trailing" id="wHy-nt-GNa"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EwA-8h-mE5"/>
                 </viewController>
@@ -1377,7 +1393,7 @@ XXX湯労働者共同組合
         <segue reference="qqm-gr-Pl7"/>
         <segue reference="8dy-vb-Oi0"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="k72-Cc-SK3"/>
+        <segue reference="2pb-bu-Cya"/>
         <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1391,7 +1407,7 @@ XXX湯労働者共同組合
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

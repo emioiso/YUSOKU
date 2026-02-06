@@ -122,15 +122,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPK-2F-qMN">
-                                <rect key="frame" x="39" y="560" width="296" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)風呂RTA記録を見る"/>
-                                <connections>
-                                    <segue destination="Wr9-r0-XcM" kind="show" id="rcw-se-rBH"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＼ 合言葉を知らないと記録できないヨ！ ／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEA-NY-Udm">
                                 <rect key="frame" x="32" y="121" width="311" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -143,6 +134,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="合言葉を入力する"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPK-2F-qMN">
+                                <rect key="frame" x="39" y="534" width="296" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)風呂RTA記録を見る"/>
+                                <connections>
+                                    <segue destination="Wr9-r0-XcM" kind="show" id="rcw-se-rBH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="adU-5j-scf"/>
@@ -186,7 +186,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O30-Lz-ccR">
-                                <rect key="frame" x="98" y="612" width="273" height="35"/>
+                                <rect key="frame" x="86" y="538" width="273" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="YUKIROKUkunの記録のお部屋🚪"/>
@@ -229,7 +229,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tanakaKuronuri" translatesAutoresizingMaskIntoConstraints="NO" id="oSZ-GD-C7i">
-                                <rect key="frame" x="64" y="313" width="240" height="320"/>
+                                <rect key="frame" x="71" y="265" width="240" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -409,15 +409,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
-                                <rect key="frame" x="111" y="574" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="cd3-wB-LkW" kind="show" id="rvP-1e-MYp"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
                                 <rect key="frame" x="9" y="447" width="358" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -455,6 +446,15 @@ XXX湯に来た誰かのお風呂代を
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
+                                <rect key="frame" x="112" y="548" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="rvP-1e-MYp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -473,17 +473,8 @@ XXX湯に来た誰かのお風呂代を
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-4d-nVI">
-                                <rect key="frame" x="111" y="573" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="cd3-wB-LkW" kind="show" id="IxW-T1-nXq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-NF-2G6">
-                                <rect key="frame" x="-22" y="515" width="422" height="35"/>
+                                <rect key="frame" x="-24" y="490" width="422" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="本当に遠隔常連になる事を理解したので銀行口座を見る"/>
@@ -582,6 +573,15 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-4d-nVI">
+                                <rect key="frame" x="120" y="547" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="IxW-T1-nXq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hsb-LZ-UKD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -600,15 +600,6 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
-                                <rect key="frame" x="111" y="574" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="cd3-wB-LkW" kind="show" id="sWP-mw-knd"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
                                 <rect key="frame" x="67" y="97" width="240" height="431"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -644,6 +635,15 @@ XXX湯労働者共同組合
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="w0F-NM-bhB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
+                                <rect key="frame" x="111" y="536" width="152" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="cd3-wB-LkW" kind="show" id="sWP-mw-knd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1243,12 +1243,12 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f3g-Yz-ea2"/>
+        <segue reference="WuD-NT-TKX"/>
         <segue reference="df7-hL-HUl"/>
         <segue reference="mIg-hL-7hN"/>
-        <segue reference="IxW-T1-nXq"/>
+        <segue reference="rvP-1e-MYp"/>
         <segue reference="rcw-se-rBH"/>
-        <segue reference="k72-Cc-SK3"/>
+        <segue reference="2pb-bu-Cya"/>
         <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>

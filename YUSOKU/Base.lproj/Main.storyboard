@@ -661,15 +661,67 @@ XXX湯労働者共同組合
             <objects>
                 <viewController id="KOI-QU-SWE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6k4-uk-EYT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="blI-oe-OcB">
+                                <rect key="frame" x="0.0" y="73" width="375" height="452"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">💬最初にひとこと 「マッチしても一緒に入浴はできません」
+ 
+❌  熱すぎるお湯（見てて心配になる） かけ水しないで水風呂に入る人（湯気が消えちゃうから） 
+
+💖 求めるもの 奢り文化を理解している人 サウナの中では静かな時間を大事にできる方
+全部じゃなくても大丈夫な人 
+
+☁️自己紹介
+名前：YUKIROKUくん
+住んでいる場所：最寄の銭湯
+年齢：５歳くらい(気づいたら生まれてた)
+家族：男湯の湯気と泡と垢
+役割：記録係、見守り役、今日の湯気加減担当
+性格：きれい好きだけど、整理整頓は苦手。
+	人見知りだけど、お風呂の話になると早口
+	静かだけど、奢りが発生すると内心ガッツポーズ
+	脱衣所ではおしゃべり
+* 好きなもの
+    * ぬるめのお湯の湯気
+    * 木のロッカーの匂い
+    * 誰かが誰かを奢った日
+* 苦手なもの
+    * 騒がしいサウナ
+    * 湯冷め
+    * ピーマン🫑
+
+💬最後にひとこと
+「今日は風呂キャンセルでもいいかも」
+
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laD-Xp-SmS">
+                                <rect key="frame" x="144" y="0.0" width="86" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="☁️">
+                                    <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="40"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W3l-d3-QMi" kind="show" id="df7-hL-HUl"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dK2-kB-zzl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mV1-wP-Wa1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5k-PL-GsU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-696" y="-556"/>
+            <point key="canvasLocation" x="-696.79999999999995" y="-556.37181409295351"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VkM-wV-Xfu">
@@ -745,15 +797,15 @@ XXX湯労働者共同組合
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hQ-8W-p68">
-                                <rect key="frame" x="7" y="332" width="104" height="35"/>
+                                <rect key="frame" x="15" y="347" width="104" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="オンライン"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YUKIROKUkun５☑︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8z-dt-Tdr">
-                                <rect key="frame" x="5" y="386" width="267" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YUKIROKU 5くらい ☑︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8z-dt-Tdr">
+                                <rect key="frame" x="5" y="386" width="202" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -793,7 +845,7 @@ XXX湯労働者共同組合
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SzY-7c-Q0R">
-                                <rect key="frame" x="-1" y="411" width="331" height="203"/>
+                                <rect key="frame" x="-1" y="409" width="331" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">📏30cm
 
@@ -806,6 +858,17 @@ XXX湯労働者共同組合
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7F-3y-Fty">
+                                <rect key="frame" x="289" y="507" width="86" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="☁️">
+                                    <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="40"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KOI-QU-SWE" kind="show" id="8cZ-Gz-Oj4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rMQ-mL-kfj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -985,12 +1048,6 @@ XXX湯労働者共同組合
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UIk-ih-abA">
-                                <rect key="frame" x="122" y="353" width="74" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="☁️"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qtC-Rz-x5c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1186,9 +1243,10 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hM1-D2-RYI"/>
+        <segue reference="f3g-Yz-ea2"/>
+        <segue reference="df7-hL-HUl"/>
         <segue reference="mIg-hL-7hN"/>
-        <segue reference="c8x-Rj-vCC"/>
+        <segue reference="IxW-T1-nXq"/>
         <segue reference="rcw-se-rBH"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="iVa-tV-zlj"/>

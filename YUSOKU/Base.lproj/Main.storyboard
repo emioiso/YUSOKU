@@ -16,69 +16,98 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-Yz-Doe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-Yz-Doe">
                                 <rect key="frame" x="52" y="145" width="271" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の専用ロッカー🔓"/>
                                 <connections>
                                     <segue destination="15e-cm-eqr" kind="show" id="k72-Cc-SK3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILw-5v-Ihc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILw-5v-Ihc">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="sVH-9R-Syh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-1K-37T">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-1K-37T">
                                 <rect key="frame" x="111" y="456" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
                                     <segue destination="cd3-wB-LkW" kind="show" id="8dy-vb-Oi0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
                                 <rect key="frame" x="119" y="499" width="136" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                 <connections>
                                     <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ts-xu-e7N">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ts-xu-e7N">
                                 <rect key="frame" x="100" y="199" width="175" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkl-CD-5bX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tkl-CD-5bX">
                                 <rect key="frame" x="100" y="252" width="175" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koz-YN-o1b">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koz-YN-o1b">
                                 <rect key="frame" x="100" y="307" width="175" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-ia-ero">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-ia-ero">
                                 <rect key="frame" x="100" y="359" width="175" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lta-9w-Fdb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="119" id="39A-oB-FfS"/>
+                            <constraint firstItem="koz-YN-o1b" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="100" id="61K-2i-tuF"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="G9V-1K-37T" secondAttribute="bottom" constant="176" id="91U-k7-r3C"/>
+                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="top" secondItem="rag-Yz-Doe" secondAttribute="bottom" constant="19" id="Hiw-TH-zVd"/>
+                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="20" id="JF0-JH-ewZ"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="Aei-Jo-qXG" secondAttribute="bottom" constant="133" id="JxL-n4-Rd9"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="rag-Yz-Doe" secondAttribute="trailing" constant="52" id="L2G-Pj-2LK"/>
+                            <constraint firstItem="Tkl-CD-5bX" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="100" id="Ls5-J1-s7I"/>
+                            <constraint firstItem="koz-YN-o1b" firstAttribute="top" secondItem="Tkl-CD-5bX" secondAttribute="bottom" constant="20" id="Mlp-CO-Qtj"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="8Ts-xu-e7N" secondAttribute="trailing" constant="100" id="PoE-b7-GZE"/>
+                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="16" id="QA0-gf-i4T"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="Aei-Jo-qXG" secondAttribute="trailing" constant="120" id="Tsd-fY-Zza"/>
+                            <constraint firstItem="Tkl-CD-5bX" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="252" id="UPL-p8-bqE"/>
+                            <constraint firstItem="rag-Yz-Doe" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="52" id="XJr-fX-hyo"/>
+                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="199" id="Xjt-nu-E1P"/>
+                            <constraint firstItem="G9V-1K-37T" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="456" id="ZZd-6e-nCr"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="ILw-5v-Ihc" secondAttribute="trailing" constant="203" id="aHO-r2-GK2"/>
+                            <constraint firstItem="Pnw-ia-ero" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="359" id="eSf-mB-tob"/>
+                            <constraint firstItem="Pnw-ia-ero" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="100" id="elr-18-SSa"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="Pnw-ia-ero" secondAttribute="trailing" constant="100" id="f0n-VS-azI"/>
+                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="100" id="fc4-x8-iWy"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="rag-Yz-Doe" secondAttribute="bottom" constant="487" id="h1C-sC-vlz"/>
+                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="top" secondItem="G9V-1K-37T" secondAttribute="bottom" constant="8" symbolic="YES" id="iB3-1K-RIY"/>
+                            <constraint firstItem="G9V-1K-37T" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="111" id="iXM-pj-c29"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="ILw-5v-Ihc" secondAttribute="bottom" constant="612" id="kJC-5H-zoy"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="Tkl-CD-5bX" secondAttribute="trailing" constant="100" id="m2R-Rf-IlL"/>
+                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="499" id="mBp-dG-FGp"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="koz-YN-o1b" secondAttribute="trailing" constant="100" id="ote-6a-Fwb"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="G9V-1K-37T" secondAttribute="trailing" constant="112" id="sUT-Xm-kuh"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="8Ts-xu-e7N" secondAttribute="trailing" constant="100" id="uda-5P-sc5"/>
+                            <constraint firstItem="rag-Yz-Doe" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="145" id="vok-hn-tXD"/>
+                            <constraint firstItem="Pnw-ia-ero" firstAttribute="top" secondItem="koz-YN-o1b" secondAttribute="bottom" constant="17" id="y2G-A2-zuy"/>
+                            <constraint firstItem="koz-YN-o1b" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="307" id="zaw-OR-igj"/>
+                            <constraint firstItem="Tkl-CD-5bX" firstAttribute="top" secondItem="8Ts-xu-e7N" secondAttribute="bottom" constant="18" id="zed-d4-s9M"/>
+                            <constraint firstItem="G9V-1K-37T" firstAttribute="top" secondItem="Pnw-ia-ero" secondAttribute="bottom" constant="62" id="znM-tm-t52"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gfP-z1-jfA"/>
                 </viewController>
@@ -1331,11 +1360,10 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cJl-Yh-Kmt"/>
-        <segue reference="Nvf-Ja-y4E"/>
+        <segue reference="sVH-9R-Syh"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="mIg-hL-7hN"/>
-        <segue reference="c8x-Rj-vCC"/>
+        <segue reference="qqm-gr-Pl7"/>
+        <segue reference="8dy-vb-Oi0"/>
         <segue reference="rcw-se-rBH"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="iVa-tV-zlj"/>

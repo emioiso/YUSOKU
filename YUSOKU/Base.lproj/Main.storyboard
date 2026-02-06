@@ -123,27 +123,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ban-BL-GHg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ban-BL-GHg">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎脱衣所に戻る🧺"/>
                                 <connections>
                                     <segue destination="GTR-XQ-7kx" kind="show" id="JJ6-8q-zYT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4j-vE-AfK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4j-vE-AfK">
                                 <rect key="frame" x="87" y="148" width="201" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)風呂RTA"/>
                                 <connections>
                                     <segue destination="Wr9-r0-XcM" kind="show" id="ZxN-gX-BNu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWd-Bh-hen">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWd-Bh-hen">
                                 <rect key="frame" x="28" y="211" width="318" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の黒塗り承諾書を見る📃"/>
                                 <connections>
@@ -153,6 +150,21 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iHG-ev-JJQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o4j-vE-AfK" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="87" id="1Z3-US-YsG"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="ban-BL-GHg" secondAttribute="trailing" constant="203" id="6kH-ca-ue4"/>
+                            <constraint firstItem="sWd-Bh-hen" firstAttribute="top" secondItem="o4j-vE-AfK" secondAttribute="bottom" constant="28" id="775-TZ-usG"/>
+                            <constraint firstItem="ban-BL-GHg" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="20" id="96t-Xm-ayT"/>
+                            <constraint firstItem="o4j-vE-AfK" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="148" id="Dnh-hw-UiG"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="sWd-Bh-hen" secondAttribute="trailing" constant="29" id="MaS-xa-P9a"/>
+                            <constraint firstItem="ban-BL-GHg" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="16" id="Orb-XL-jIe"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="ban-BL-GHg" secondAttribute="bottom" constant="612" id="Sr0-SU-Idz"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="o4j-vE-AfK" secondAttribute="trailing" constant="87" id="YcQ-IV-pCQ"/>
+                            <constraint firstItem="sWd-Bh-hen" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="28" id="a9L-Dr-wwa"/>
+                            <constraint firstItem="sWd-Bh-hen" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="211" id="g9p-HZ-nna"/>
+                            <constraint firstItem="o4j-vE-AfK" firstAttribute="leading" secondItem="sWd-Bh-hen" secondAttribute="trailing" constant="-259" id="waI-9Z-WFI"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="sWd-Bh-hen" secondAttribute="bottom" constant="421" id="yh6-Ia-QCS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jGA-Ti-42d"/>
                 </viewController>
@@ -1364,9 +1376,9 @@ XXX湯労働者共同組合
         <segue reference="AvQ-PU-43V"/>
         <segue reference="qqm-gr-Pl7"/>
         <segue reference="8dy-vb-Oi0"/>
-        <segue reference="rcw-se-rBH"/>
+        <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="iVa-tV-zlj"/>
+        <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKukunBandai" width="1165" height="1259"/>

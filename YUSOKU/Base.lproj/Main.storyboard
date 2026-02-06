@@ -803,9 +803,8 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
                                 <rect key="frame" x="67" y="97" width="240" height="431"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">① 銀行名
 
@@ -825,24 +824,22 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
 
 ⑤ 口座名義
 
-XXX湯労働者共同組合
+XXX湯
 （※カタカナ表記）</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdC-dF-3Wj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdC-dF-3Wj">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="w0F-NM-bhB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
                                 <rect key="frame" x="111" y="536" width="152" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
@@ -852,6 +849,20 @@ XXX湯労働者共同組合
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jTR-AD-4Zx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="97" id="0wo-8b-TRr"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="lf1-iZ-n6m" secondAttribute="trailing" constant="68" id="1VE-q9-9nS"/>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="67" id="9dF-KG-b8w"/>
+                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="111" id="K17-qV-zhK"/>
+                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="16" id="RZG-wV-Db3"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="JdC-dF-3Wj" secondAttribute="bottom" constant="612" id="X2v-TT-TUH"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="lf1-iZ-n6m" secondAttribute="bottom" constant="139" id="dF1-ZZ-Grf"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="JdC-dF-3Wj" secondAttribute="trailing" constant="203" id="eFH-yD-QuR"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="SBw-Ut-4wg" secondAttribute="trailing" constant="112" id="pUG-N3-HoX"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="SBw-Ut-4wg" secondAttribute="bottom" constant="96" id="rUG-hr-I7v"/>
+                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="20" id="rYq-qR-TUc"/>
+                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="536" id="ufU-l4-6iC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="baO-Ri-2WD"/>
                 </viewController>
@@ -1465,10 +1476,10 @@ XXX湯労働者共同組合
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f3g-Yz-ea2"/>
+        <segue reference="w0F-NM-bhB"/>
         <segue reference="AvQ-PU-43V"/>
         <segue reference="B9I-aW-IaA"/>
-        <segue reference="IxW-T1-nXq"/>
+        <segue reference="sWP-mw-knd"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="JJ6-8q-zYT"/>

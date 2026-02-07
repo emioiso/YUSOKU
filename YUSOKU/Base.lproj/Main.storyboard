@@ -62,27 +62,6 @@
                                     <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hQ-8W-p68">
-                                <rect key="frame" x="293" y="268" width="104" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.52941176469999995" green="0.74509803919999995" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="オンライン"/>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SzY-7c-Q0R">
-                                <rect key="frame" x="300" y="357" width="331" height="203"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">📏30cm
-
-💼お湯の記録
-
-📍最寄の銭湯
-
-🎓YUKEMURI大学</string>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lta-9w-Fdb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -126,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdY-Y5-cAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="109"/>
+            <point key="canvasLocation" x="1444" y="108"/>
         </scene>
         <!--Lockers For Tanaka-->
         <scene sceneID="OgA-uf-dqS">
@@ -185,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4c-Am-qOA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2026" y="108"/>
+            <point key="canvasLocation" x="2012" y="108"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vYw-Ff-tp5">
@@ -289,7 +268,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-Wt-idb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-Wt-idb">
                                 <rect key="frame" x="0.0" y="147" width="375" height="343"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">2025/12/31(水)24:14.72
@@ -485,17 +464,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMm-to-gNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1128.8" y="106.59670164917542"/>
+            <point key="canvasLocation" x="1444" y="750"/>
         </scene>
         <!--Guest In The Bath-->
         <scene sceneID="HQC-eB-I75">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xjy-c1-ysi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController modalPresentationStyle="fullScreen" id="cd3-wB-LkW" customClass="GuestInTheBath" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="J8u-e8-IEe"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xjy-c1-ysi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1937" y="949"/>
+            <point key="canvasLocation" x="2186" y="991"/>
         </scene>
         <!--Jouren In The Bath-->
         <scene sceneID="xLD-XL-cYU">
@@ -506,13 +485,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="遠隔常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
-                                <rect key="frame" x="131" y="63" width="112" height="51"/>
+                                <rect key="frame" x="131" y="93" width="112" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
-                                <rect key="frame" x="9" y="447" width="358" height="35"/>
+                                <rect key="frame" x="9" y="485" width="358" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="遠隔常連になるに同意したので銀行口座を見る"/>
                                 <connections>
@@ -520,15 +499,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlM-AB-DU4">
-                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <rect key="frame" x="16" y="28" width="156" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="WuD-NT-TKX"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
-                                <rect key="frame" x="16" y="127" width="343" height="311"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
+                                <rect key="frame" x="112" y="548" width="152" height="50"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
+                                <rect key="frame" x="47" y="177" width="300" height="300"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">♨️遠隔常連になるとは？♨️
 
@@ -545,45 +529,40 @@ XXX湯に来た誰かのお風呂代を
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
-                                <rect key="frame" x="112" y="548" width="152" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="i2e-di-gtM" secondAttribute="trailing" constant="111" id="0lC-IX-1LI"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="273" id="4b6-BD-ee7"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="nlM-AB-DU4" secondAttribute="bottom" constant="612" id="9Qa-WN-Xad"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="9" id="A8L-6P-tCP"/>
-                            <constraint firstItem="nlM-AB-DU4" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="20" id="CA4-4Z-pLi"/>
-                            <constraint firstItem="nlM-AB-DU4" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="Cy1-dA-m3S"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="583" id="Del-35-3Rt"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="pSt-8c-g4Q" secondAttribute="trailing" constant="8" id="K7m-Qy-dbo"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="185" id="Mc8-mT-ZzW"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="0ef-qp-JvG" secondAttribute="trailing" constant="16" id="SCk-3h-lGx"/>
-                            <constraint firstItem="DyI-61-h9c" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="131" id="SoK-nM-D9D"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="i2e-di-gtM" secondAttribute="bottom" constant="84" id="YBk-Nj-yc3"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="DyI-61-h9c" secondAttribute="trailing" constant="132" id="YLq-w1-wQ8"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="bDN-rH-2jx"/>
-                            <constraint firstItem="DyI-61-h9c" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="63" id="bay-v6-PaH"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="127" id="c3J-HQ-9aW"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="447" id="dJa-AC-NPy"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="firstBaseline" secondItem="0ef-qp-JvG" secondAttribute="baseline" constant="32" symbolType="layoutAnchor" id="kOh-CZ-Ze9"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="firstBaseline" secondItem="DyI-61-h9c" secondAttribute="baseline" constant="17.5" symbolType="layoutAnchor" id="nUP-Zl-pbH"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="66" id="o6i-JB-qw5"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="112" id="sOQ-gi-6W6"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="nlM-AB-DU4" secondAttribute="trailing" constant="203" id="uNN-4r-1iF"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="548" id="vve-mF-A0j"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="i2e-di-gtM" secondAttribute="bottom" constant="69" id="02n-Cm-x6B"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="177" id="0ky-d8-yGA"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="DyI-61-h9c" secondAttribute="trailing" constant="132" id="3FF-Hb-Zdm"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="nlM-AB-DU4" secondAttribute="trailing" constant="203" id="3sg-eW-e3i"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="485" id="590-6W-Oep"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="13" id="6jR-4s-Yb0"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="131" id="97R-c0-C7p"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="9" id="LHL-GK-erx"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="nlM-AB-DU4" secondAttribute="bottom" constant="589" id="QHt-6P-8v8"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="132" id="U8t-Mm-LWk"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="93" id="WOn-hp-TxB"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="524" id="Z9I-fY-qnS"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="28" id="ZDr-zN-vIo"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="47" id="ciC-Dr-l7x"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="pSt-8c-g4Q" secondAttribute="trailing" constant="8" id="dK1-TX-yyy"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="112" id="iCc-fx-yeg"/>
+                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="548" id="kO7-Sc-adC"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="0ef-qp-JvG" secondAttribute="trailing" constant="28" id="lAK-e7-3dT"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="i2e-di-gtM" secondAttribute="trailing" constant="111" id="pkZ-NR-rUt"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="190" id="u0N-MB-ORx"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="34" id="uWr-kG-j4B"/>
+                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="8" symbolic="YES" id="xKP-v0-w46"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="ybm-Sn-Ehb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3r2-I5-4WM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2P-Or-Mkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3020" y="784.85757121439292"/>
+            <point key="canvasLocation" x="2590" y="750"/>
         </scene>
         <!--Jouren Gachi Pay-->
         <scene sceneID="BQV-HR-k70">
@@ -612,7 +591,7 @@ XXX湯に来た誰かのお風呂代を
                                     <segue destination="D5B-8a-BDJ" kind="show" id="f3g-Yz-ea2"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Ah-oz-j0A">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ah-oz-j0A">
                                 <rect key="frame" x="16" y="90" width="343" height="392"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">遠隔常連になる方へ（仕組みの説明と同意）
@@ -734,7 +713,7 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
                                 <rect key="frame" x="67" y="97" width="240" height="431"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">① 銀行名
@@ -816,7 +795,7 @@ XXX湯
                                     <segue destination="W3l-d3-QMi" kind="show" id="df7-hL-HUl"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="blI-oe-OcB">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="blI-oe-OcB">
                                 <rect key="frame" x="16" y="66" width="343" height="448"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">💬最初にひとこと 「マッチしても一緒に入浴はできません」
@@ -1396,12 +1375,12 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="aLH-hp-EbQ"/>
+        <segue reference="WuD-NT-TKX"/>
         <segue reference="df7-hL-HUl"/>
         <segue reference="MCM-Tb-nQS"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="k72-Cc-SK3"/>
-        <segue reference="iVa-tV-zlj"/>
+        <segue reference="2pb-bu-Cya"/>
+        <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKukunBandai" width="1165" height="1259"/>
@@ -1419,7 +1398,7 @@ XXX湯
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

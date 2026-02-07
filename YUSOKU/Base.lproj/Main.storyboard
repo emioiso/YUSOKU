@@ -912,7 +912,7 @@ XXX湯
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laD-Xp-SmS" customClass="iiyudanerProfile">
-                                <rect key="frame" x="147" y="6" width="80" height="80"/>
+                                <rect key="frame" x="147" y="6" width="64" height="80"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="☁️">
                                     <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="40"/>
@@ -922,7 +922,7 @@ XXX湯
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="blI-oe-OcB">
-                                <rect key="frame" x="16" y="81" width="343" height="1099"/>
+                                <rect key="frame" x="16" y="66" width="343" height="448"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">💬最初にひとこと 「マッチしても一緒に入浴はできません」
  
@@ -962,51 +962,51 @@ XXX湯
                         <viewLayoutGuide key="safeArea" id="dK2-kB-zzl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="laD-Xp-SmS" firstAttribute="top" secondItem="dK2-kB-zzl" secondAttribute="top" constant="6" id="4d8-AO-H3m"/>
-                            <constraint firstItem="dK2-kB-zzl" firstAttribute="trailing" secondItem="laD-Xp-SmS" secondAttribute="trailing" constant="148" id="KgN-ig-892"/>
-                            <constraint firstItem="blI-oe-OcB" firstAttribute="leading" secondItem="dK2-kB-zzl" secondAttribute="leading" constant="16" id="KiW-RY-0eg"/>
-                            <constraint firstItem="blI-oe-OcB" firstAttribute="bottom" secondItem="dK2-kB-zzl" secondAttribute="bottom" constant="533" id="Lxp-dO-WQG"/>
-                            <constraint firstItem="blI-oe-OcB" firstAttribute="top" secondItem="dK2-kB-zzl" secondAttribute="top" constant="81" id="RyI-N4-nS6"/>
-                            <constraint firstItem="dK2-kB-zzl" firstAttribute="trailing" secondItem="blI-oe-OcB" secondAttribute="trailing" constant="16" id="UAY-vb-wEN"/>
-                            <constraint firstItem="laD-Xp-SmS" firstAttribute="leading" secondItem="dK2-kB-zzl" secondAttribute="leading" constant="147" id="hPR-9T-QaZ"/>
-                            <constraint firstItem="blI-oe-OcB" firstAttribute="top" secondItem="laD-Xp-SmS" secondAttribute="bottom" constant="-5" id="nEJ-AK-MHx"/>
-                            <constraint firstItem="dK2-kB-zzl" firstAttribute="bottom" secondItem="laD-Xp-SmS" secondAttribute="bottom" constant="561" id="zdZ-mX-ncw"/>
+                            <constraint firstItem="laD-Xp-SmS" firstAttribute="leading" secondItem="dK2-kB-zzl" secondAttribute="leading" constant="147" id="1vF-nZ-Qii"/>
+                            <constraint firstItem="blI-oe-OcB" firstAttribute="leading" secondItem="dK2-kB-zzl" secondAttribute="leading" constant="16" id="9cc-Hv-BD8"/>
+                            <constraint firstItem="blI-oe-OcB" firstAttribute="top" secondItem="dK2-kB-zzl" secondAttribute="top" constant="66" id="S1Y-9N-hPT"/>
+                            <constraint firstItem="dK2-kB-zzl" firstAttribute="trailing" secondItem="blI-oe-OcB" secondAttribute="trailing" constant="16" id="evH-o8-ojn"/>
+                            <constraint firstItem="dK2-kB-zzl" firstAttribute="bottom" secondItem="laD-Xp-SmS" secondAttribute="bottom" constant="561" id="oBI-mQ-Huf"/>
+                            <constraint firstItem="dK2-kB-zzl" firstAttribute="bottom" secondItem="blI-oe-OcB" secondAttribute="bottom" constant="133" id="vBQ-6m-uoe"/>
+                            <constraint firstItem="laD-Xp-SmS" firstAttribute="top" secondItem="dK2-kB-zzl" secondAttribute="top" constant="6" id="vO6-7u-FcH"/>
+                            <constraint firstItem="blI-oe-OcB" firstAttribute="top" secondItem="laD-Xp-SmS" secondAttribute="bottom" constant="-20" id="xjY-1D-MkV"/>
+                            <constraint firstItem="dK2-kB-zzl" firstAttribute="trailing" secondItem="laD-Xp-SmS" secondAttribute="trailing" constant="164" id="xjj-iy-KBP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mV1-wP-Wa1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5k-PL-GsU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233" y="-530"/>
+            <point key="canvasLocation" x="232.80000000000001" y="-530.28485757121439"/>
         </scene>
         <!--Iiyudaner Top-->
         <scene sceneID="VkM-wV-Xfu">
             <objects>
                 <viewController id="W3l-d3-QMi" customClass="iiyudanerTop" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ac3-hC-0Fk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="657"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaK-6W-bQT">
-                                <rect key="frame" x="20" y="31" width="30" height="50"/>
+                                <rect key="frame" x="20" y="31" width="30" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iiyudaner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leE-wP-Pji">
-                                <rect key="frame" x="57" y="32" width="90" height="50"/>
+                                <rect key="frame" x="57" y="32" width="90" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <color key="highlightedColor" red="0.8862745098" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♨︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiS-bp-A7m">
-                                <rect key="frame" x="273" y="31" width="50" height="50"/>
+                                <rect key="frame" x="273" y="31" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⇆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehZ-6i-f47">
-                                <rect key="frame" x="311" y="32" width="30" height="50"/>
+                                <rect key="frame" x="311" y="32" width="30" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1038,19 +1038,19 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-4N-zq4">
-                                <rect key="frame" x="21" y="530" width="50" height="50"/>
+                                <rect key="frame" x="21" y="530" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5br-LI-IZn">
-                                <rect key="frame" x="246" y="526" width="50" height="50"/>
+                                <rect key="frame" x="246" y="526" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVZ-dp-B1a">
-                                <rect key="frame" x="88" y="529" width="40" height="50"/>
+                                <rect key="frame" x="88" y="529" width="40" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1063,7 +1063,7 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔶" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHV-s3-ndD">
-                                <rect key="frame" x="162" y="528.5" width="50" height="50"/>
+                                <rect key="frame" x="162" y="528.5" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1073,7 +1073,7 @@ XXX湯
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7F-3y-Fty">
-                                <rect key="frame" x="301" y="522" width="74" height="80"/>
+                                <rect key="frame" x="301" y="522" width="74" height="90"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="☁️">
                                     <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -1134,7 +1134,7 @@ XXX湯
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWa-Ix-amR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.8" y="85.907046476761622"/>
+            <point key="canvasLocation" x="838" y="-530"/>
         </scene>
         <!--Ukun Room-->
         <scene sceneID="GGC-Gd-f06">
@@ -1566,7 +1566,7 @@ XXX湯
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="sVH-9R-Syh"/>
-        <segue reference="AvQ-PU-43V"/>
+        <segue reference="df7-hL-HUl"/>
         <segue reference="qqm-gr-Pl7"/>
         <segue reference="8dy-vb-Oi0"/>
         <segue reference="ZxN-gX-BNu"/>

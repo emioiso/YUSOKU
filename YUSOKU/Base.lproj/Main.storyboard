@@ -572,19 +572,8 @@ XXX湯に来た誰かのお風呂代を
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-NF-2G6">
-                                <rect key="frame" x="32" y="480" width="311" height="55"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <string key="title">本当に遠隔常連になる事を理解したので
-銀行口座を見る</string>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="xow-fb-brt" kind="show" id="KFn-YR-FGH"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wcO-AJ-Vn3">
-                                <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <rect key="frame" x="16" y="28" width="156" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
@@ -673,37 +662,50 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZD-4d-nVI">
-                                <rect key="frame" x="120" y="547" width="152" height="35"/>
+                                <rect key="frame" x="112" y="549" width="152" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQR-NF-2G6">
+                                <rect key="frame" x="33" y="486" width="311" height="55"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <string key="title">本当に遠隔常連になる事を理解したので
+銀行口座を見る</string>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="xow-fb-brt" kind="show" id="KFn-YR-FGH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hsb-LZ-UKD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="4Ah-oz-j0A" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="16" id="30p-6A-Of0"/>
-                            <constraint firstItem="bQR-NF-2G6" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="32" id="6eT-ns-2ik"/>
-                            <constraint firstItem="wcO-AJ-Vn3" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="20" id="756-Ew-ggg"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="wcO-AJ-Vn3" secondAttribute="trailing" constant="203" id="E5X-gM-Qpa"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="bQR-NF-2G6" secondAttribute="bottom" constant="132" id="EG9-7T-s25"/>
-                            <constraint firstItem="cZD-4d-nVI" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="547" id="NXP-Cx-mU9"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="cZD-4d-nVI" secondAttribute="trailing" constant="103" id="Q9B-wW-T6a"/>
-                            <constraint firstItem="bQR-NF-2G6" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="480" id="Qwg-yo-cyb"/>
-                            <constraint firstItem="wcO-AJ-Vn3" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="16" id="aQg-am-yps"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="bQR-NF-2G6" secondAttribute="trailing" constant="32" id="e2L-VO-k7G"/>
-                            <constraint firstItem="cZD-4d-nVI" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="120" id="rgx-dW-7YT"/>
-                            <constraint firstItem="4Ah-oz-j0A" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="90" id="tIr-d2-cJ4"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="cZD-4d-nVI" secondAttribute="bottom" constant="85" id="uoX-9f-sEV"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="4Ah-oz-j0A" secondAttribute="trailing" constant="16" id="ygN-7X-RtT"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="4Ah-oz-j0A" secondAttribute="bottom" constant="185" id="zAo-SY-EdE"/>
-                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="wcO-AJ-Vn3" secondAttribute="bottom" constant="612" id="zh3-9X-gBh"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="4Ah-oz-j0A" secondAttribute="trailing" constant="16" id="5mi-KX-WTe"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="bQR-NF-2G6" secondAttribute="bottom" constant="126" id="7Jm-HS-VRr"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="cZD-4d-nVI" secondAttribute="bottom" constant="68" id="Cz3-KU-VsM"/>
+                            <constraint firstItem="4Ah-oz-j0A" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="16" id="Gle-eU-qIB"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="cZD-4d-nVI" secondAttribute="trailing" constant="111" id="IUZ-mz-Umq"/>
+                            <constraint firstItem="cZD-4d-nVI" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="112" id="Ooo-I3-nhz"/>
+                            <constraint firstItem="cZD-4d-nVI" firstAttribute="top" secondItem="bQR-NF-2G6" secondAttribute="bottom" constant="8" symbolic="YES" id="Sn7-AU-WT3"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="wcO-AJ-Vn3" secondAttribute="bottom" constant="589" id="Uc9-hR-r8E"/>
+                            <constraint firstItem="bQR-NF-2G6" firstAttribute="top" secondItem="4Ah-oz-j0A" secondAttribute="bottom" constant="4" id="VT7-rn-PFk"/>
+                            <constraint firstItem="wcO-AJ-Vn3" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="16" id="Xlq-BJ-Mh7"/>
+                            <constraint firstItem="bQR-NF-2G6" firstAttribute="leading" secondItem="hsb-LZ-UKD" secondAttribute="leading" constant="33" id="YhI-0g-zpP"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="bottom" secondItem="4Ah-oz-j0A" secondAttribute="bottom" constant="185" id="bCR-xh-qc9"/>
+                            <constraint firstItem="bQR-NF-2G6" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="486" id="elq-WV-ahp"/>
+                            <constraint firstItem="4Ah-oz-j0A" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="90" id="fw7-2H-1ur"/>
+                            <constraint firstItem="wcO-AJ-Vn3" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="28" id="kZ8-Jw-IhV"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="bQR-NF-2G6" secondAttribute="trailing" constant="31" id="n12-b7-k36"/>
+                            <constraint firstItem="cZD-4d-nVI" firstAttribute="top" secondItem="hsb-LZ-UKD" secondAttribute="top" constant="549" id="oy7-ee-UYv"/>
+                            <constraint firstItem="hsb-LZ-UKD" firstAttribute="trailing" secondItem="wcO-AJ-Vn3" secondAttribute="trailing" constant="203" id="usT-zY-fOF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tjB-FS-raI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OuJ-HV-T5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3677.5999999999999" y="784.85757121439292"/>
+            <point key="canvasLocation" x="3190" y="750"/>
         </scene>
         <!--Bank Number-->
         <scene sceneID="4gt-ae-A4X">
@@ -1375,11 +1377,11 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WuD-NT-TKX"/>
+        <segue reference="f3g-Yz-ea2"/>
         <segue reference="df7-hL-HUl"/>
         <segue reference="MCM-Tb-nQS"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="2pb-bu-Cya"/>
+        <segue reference="O47-U2-Goa"/>
         <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1398,7 +1400,7 @@ XXX湯
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

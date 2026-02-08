@@ -499,7 +499,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feR-vn-pCm">
-                                <rect key="frame" x="37" y="132" width="300" height="100"/>
+                                <rect key="frame" x="35" y="132" width="307" height="100"/>
                                 <string key="text">ごめんよ！
 ＼ 今清掃中だからチョッコシ待ってて！／</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -510,7 +510,7 @@
                         <viewLayoutGuide key="safeArea" id="ntc-kA-gsl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="feR-vn-pCm" secondAttribute="trailing" constant="38" id="5FB-tS-tII"/>
+                            <constraint firstItem="feR-vn-pCm" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="35" id="2RH-2f-DcD"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="TeT-dA-Tyc" secondAttribute="trailing" constant="148" id="Ccb-AY-b2w"/>
                             <constraint firstItem="i0Z-cB-ltA" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="200" id="GZR-jb-uZ0"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="i0Z-cB-ltA" secondAttribute="trailing" constant="16" id="O7R-vF-9Wq"/>
@@ -518,13 +518,13 @@
                             <constraint firstItem="TeT-dA-Tyc" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="74" id="Ov6-0F-Rlv"/>
                             <constraint firstItem="TeT-dA-Tyc" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="147" id="R7i-EN-AOQ"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="TeT-dA-Tyc" secondAttribute="bottom" constant="523" id="ZCK-Dk-4u4"/>
-                            <constraint firstItem="feR-vn-pCm" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="37" id="ZjN-xH-FA6"/>
                             <constraint firstItem="feR-vn-pCm" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="132" id="f4q-AE-ctd"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="xO5-iF-rls" secondAttribute="trailing" constant="203" id="fT5-nW-ZSa"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="feR-vn-pCm" secondAttribute="bottom" constant="415" id="fki-qm-95u"/>
                             <constraint firstItem="i0Z-cB-ltA" firstAttribute="top" secondItem="feR-vn-pCm" secondAttribute="bottom" constant="-32" id="pa2-0B-bZD"/>
                             <constraint firstItem="i0Z-cB-ltA" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="16" id="poP-Bp-mRm"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="xO5-iF-rls" secondAttribute="bottom" constant="577" id="tRd-Am-n8Z"/>
+                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="feR-vn-pCm" secondAttribute="trailing" constant="33" id="v4n-9J-uki"/>
                             <constraint firstItem="feR-vn-pCm" firstAttribute="top" secondItem="TeT-dA-Tyc" secondAttribute="bottom" constant="8" symbolic="YES" id="wuM-ma-Qri"/>
                             <constraint firstItem="xO5-iF-rls" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="20" id="xvD-CX-jub"/>
                             <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="i0Z-cB-ltA" secondAttribute="bottom" constant="220" id="zli-1u-fpq"/>
@@ -534,7 +534,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8G7-0K-dkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1983" y="750"/>
+            <point key="canvasLocation" x="4740" y="78"/>
         </scene>
         <!--Jouren In The Bath-->
         <scene sceneID="xLD-XL-cYU">
@@ -1334,6 +1334,9 @@ XXX湯
                                 <rect key="frame" x="115.5" y="459" width="151.5" height="50"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                <connections>
+                                    <segue destination="GEK-UI-AUO" kind="show" id="dYj-TQ-O1b"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＼ イラッシャイマセ！／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
                                 <rect key="frame" x="95" y="87" width="200" height="50"/>
@@ -1436,13 +1439,13 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hM1-D2-RYI"/>
+        <segue reference="eT9-OX-BpN"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="MCM-Tb-nQS"/>
-        <segue reference="lQP-3f-WfR"/>
+        <segue reference="mIg-hL-7hN"/>
+        <segue reference="dYj-TQ-O1b"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="JJ6-8q-zYT"/>
+        <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKUkun _cleanning" width="1024" height="1024"/>
@@ -1461,7 +1464,7 @@ XXX湯
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502D615A15729052C7B05927 /* Pods_YUSOKU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECCFE250E4E660BF6E8A863 /* Pods_YUSOKU.framework */; };
+		8249BBEC1CB05D0827FD344D /* Pods_YUSOKU_YUSOKUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193C0BE35DBF30B73A8A4FC4 /* Pods_YUSOKU_YUSOKUUITests.framework */; };
 		8585BDC42F34B786000C9076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8585BDC32F34B786000C9076 /* Assets.xcassets */; };
+		F0FC5E44530B8E92DCA7CA5B /* Pods_YUSOKUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8594B62C854CBAAFF69D77F3 /* Pods_YUSOKUTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +31,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193C0BE35DBF30B73A8A4FC4 /* Pods_YUSOKU_YUSOKUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUSOKU_YUSOKUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		498E625A4815F25A2B6697C6 /* Pods-YUSOKU-YUSOKUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKU-YUSOKUUITests.debug.xcconfig"; path = "Target Support Files/Pods-YUSOKU-YUSOKUUITests/Pods-YUSOKU-YUSOKUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52349557987F79D682AF594C /* Pods-YUSOKUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKUTests.release.xcconfig"; path = "Target Support Files/Pods-YUSOKUTests/Pods-YUSOKUTests.release.xcconfig"; sourceTree = "<group>"; };
+		760F3E93DA94669EAD0DD18A /* Pods-YUSOKUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKUTests.debug.xcconfig"; path = "Target Support Files/Pods-YUSOKUTests/Pods-YUSOKUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECCFE250E4E660BF6E8A863 /* Pods_YUSOKU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUSOKU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8585BDC32F34B786000C9076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8594B62C854CBAAFF69D77F3 /* Pods_YUSOKUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUSOKUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		859575352F2E17FE00801601 /* YUSOKU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUSOKU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8595754B2F2E17FF00801601 /* YUSOKUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUSOKUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		859575552F2E17FF00801601 /* YUSOKUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUSOKUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DE64B1C3AC0648D27301EC /* Pods-YUSOKU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKU.release.xcconfig"; path = "Target Support Files/Pods-YUSOKU/Pods-YUSOKU.release.xcconfig"; sourceTree = "<group>"; };
+		95E0CF508F1E8311AC68300D /* Pods-YUSOKU-YUSOKUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKU-YUSOKUUITests.release.xcconfig"; path = "Target Support Files/Pods-YUSOKU-YUSOKUUITests/Pods-YUSOKU-YUSOKUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD2AD763F3ECD49C8AD7A8E5 /* Pods-YUSOKU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUSOKU.debug.xcconfig"; path = "Target Support Files/Pods-YUSOKU/Pods-YUSOKU.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502D615A15729052C7B05927 /* Pods_YUSOKU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0FC5E44530B8E92DCA7CA5B /* Pods_YUSOKUTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8249BBEC1CB05D0827FD344D /* Pods_YUSOKU_YUSOKUUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A657B2ED58BEF870C1B967C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECCFE250E4E660BF6E8A863 /* Pods_YUSOKU.framework */,
+				193C0BE35DBF30B73A8A4FC4 /* Pods_YUSOKU_YUSOKUUITests.framework */,
+				8594B62C854CBAAFF69D77F3 /* Pods_YUSOKUTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8595752C2F2E17FE00801601 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +123,8 @@
 				8595754E2F2E17FF00801601 /* YUSOKUTests */,
 				859575582F2E17FF00801601 /* YUSOKUUITests */,
 				859575362F2E17FE00801601 /* Products */,
+				A28C26C05385FA43E080DD97 /* Pods */,
+				1A657B2ED58BEF870C1B967C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +138,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A28C26C05385FA43E080DD97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD2AD763F3ECD49C8AD7A8E5 /* Pods-YUSOKU.debug.xcconfig */,
+				87DE64B1C3AC0648D27301EC /* Pods-YUSOKU.release.xcconfig */,
+				498E625A4815F25A2B6697C6 /* Pods-YUSOKU-YUSOKUUITests.debug.xcconfig */,
+				95E0CF508F1E8311AC68300D /* Pods-YUSOKU-YUSOKUUITests.release.xcconfig */,
+				760F3E93DA94669EAD0DD18A /* Pods-YUSOKUTests.debug.xcconfig */,
+				52349557987F79D682AF594C /* Pods-YUSOKUTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8595755E2F2E17FF00801601 /* Build configuration list for PBXNativeTarget "YUSOKU" */;
 			buildPhases = (
+				6861BF2BA4498D75B02BF3CE /* [CP] Check Pods Manifest.lock */,
 				859575312F2E17FE00801601 /* Sources */,
 				859575322F2E17FE00801601 /* Frameworks */,
 				859575332F2E17FE00801601 /* Resources */,
+				E23AD7B69657C4392CADF9C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,8 +172,6 @@
 				859575372F2E17FE00801601 /* YUSOKU */,
 			);
 			name = YUSOKU;
-			packageProductDependencies = (
-			);
 			productName = YUSOKU;
 			productReference = 859575352F2E17FE00801601 /* YUSOKU.app */;
 			productType = "com.apple.product-type.application";
@@ -140,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 859575632F2E17FF00801601 /* Build configuration list for PBXNativeTarget "YUSOKUTests" */;
 			buildPhases = (
+				2168E17E6F358F1309300403 /* [CP] Check Pods Manifest.lock */,
 				859575472F2E17FF00801601 /* Sources */,
 				859575482F2E17FF00801601 /* Frameworks */,
 				859575492F2E17FF00801601 /* Resources */,
@@ -153,8 +194,6 @@
 				8595754E2F2E17FF00801601 /* YUSOKUTests */,
 			);
 			name = YUSOKUTests;
-			packageProductDependencies = (
-			);
 			productName = YUSOKUTests;
 			productReference = 8595754B2F2E17FF00801601 /* YUSOKUTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -163,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 859575662F2E17FF00801601 /* Build configuration list for PBXNativeTarget "YUSOKUUITests" */;
 			buildPhases = (
+				00C1FFF9321B1CE0F3A438CE /* [CP] Check Pods Manifest.lock */,
 				859575512F2E17FF00801601 /* Sources */,
 				859575522F2E17FF00801601 /* Frameworks */,
 				859575532F2E17FF00801601 /* Resources */,
+				00A84C0767B51911A39B465D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,8 +217,6 @@
 				859575582F2E17FF00801601 /* YUSOKUUITests */,
 			);
 			name = YUSOKUUITests;
-			packageProductDependencies = (
-			);
 			productName = YUSOKUUITests;
 			productReference = 859575552F2E17FF00801601 /* YUSOKUUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -251,6 +290,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A84C0767B51911A39B465D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUSOKU-YUSOKUUITests/Pods-YUSOKU-YUSOKUUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUSOKU-YUSOKUUITests/Pods-YUSOKU-YUSOKUUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUSOKU-YUSOKUUITests/Pods-YUSOKU-YUSOKUUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		00C1FFF9321B1CE0F3A438CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUSOKU-YUSOKUUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2168E17E6F358F1309300403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUSOKUTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6861BF2BA4498D75B02BF3CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUSOKU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23AD7B69657C4392CADF9C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUSOKU/Pods-YUSOKU-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUSOKU/Pods-YUSOKU-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUSOKU/Pods-YUSOKU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		859575312F2E17FE00801601 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +441,7 @@
 /* Begin XCBuildConfiguration section */
 		8595755F2F2E17FF00801601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2AD763F3ECD49C8AD7A8E5 /* Pods-YUSOKU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,6 +475,7 @@
 		};
 		859575602F2E17FF00801601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DE64B1C3AC0648D27301EC /* Pods-YUSOKU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,7 +545,7 @@
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -414,6 +566,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -457,7 +610,7 @@
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -471,6 +624,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -478,6 +632,7 @@
 		};
 		859575642F2E17FF00801601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760F3E93DA94669EAD0DD18A /* Pods-YUSOKUTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +655,7 @@
 		};
 		859575652F2E17FF00801601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52349557987F79D682AF594C /* Pods-YUSOKUTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -522,10 +678,12 @@
 		};
 		859575672F2E17FF00801601 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498E625A4815F25A2B6697C6 /* Pods-YUSOKU-YUSOKUUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.YUSOKUUITests;
@@ -542,10 +700,12 @@
 		};
 		859575682F2E17FF00801601 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E0CF508F1E8311AC68300D /* Pods-YUSOKU-YUSOKUUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QC62V2F3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emioiso.YUSOKUUITests;

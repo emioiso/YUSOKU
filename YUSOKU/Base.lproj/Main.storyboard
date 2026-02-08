@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Otokoyu-->
+        <!--Otokoyu View Controller-->
         <scene sceneID="G3U-OM-dp0">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="GTR-XQ-7kx" customClass="otokoyu" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GTR-XQ-7kx" customClass="otokoyuViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z9a-uC-Uhw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="1444" y="108"/>
         </scene>
-        <!--Lockers For Tanaka-->
+        <!--Lockers For Tanaka View Controller-->
         <scene sceneID="OgA-uf-dqS">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="15e-cm-eqr" customClass="lockersForTanaka" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="15e-cm-eqr" customClass="lockersForTanakaViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="syD-5X-Vto">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="2012" y="108"/>
         </scene>
-        <!--View Controller-->
+        <!--Ukun Sopwatch Room View Controller-->
         <scene sceneID="vYw-Ff-tp5">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="DkO-8Z-IQc" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="DkO-8Z-IQc" customClass="YUKIROKUkunSopwatchRoomViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lz8-Ae-3FE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,12 +246,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNG-JL-VwS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3790" y="109"/>
+            <point key="canvasLocation" x="2590" y="-530"/>
         </scene>
-        <!--TanakaRTA-->
+        <!--TanakaRTA View Controller-->
         <scene sceneID="B1L-2R-cgI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Wr9-r0-XcM" customClass="tanakaRTA" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Wr9-r0-XcM" customClass="tanakaRTAViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hwK-tK-7Zx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -339,10 +339,10 @@
             </objects>
             <point key="canvasLocation" x="2590" y="109"/>
         </scene>
-        <!--Blacked Out Consent Form-->
+        <!--Blacked Out Consent Form View Controller-->
         <scene sceneID="Fbs-Vm-gcG">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="3VK-a4-UBi" customClass="blackedOutConsentForm" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="3VK-a4-UBi" customClass="blackedOutConsentFormViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uPa-AW-ejZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -384,10 +384,10 @@
             </objects>
             <point key="canvasLocation" x="3190" y="109"/>
         </scene>
-        <!--Onnayu-->
+        <!--Onnayu View Controller-->
         <scene sceneID="2NY-B5-yeI">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="CHA-i9-h1M" customClass="onnayu" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="CHA-i9-h1M" customClass="onnayuViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ahc-4k-96P">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -473,10 +473,10 @@
             </objects>
             <point key="canvasLocation" x="1382" y="750"/>
         </scene>
-        <!--Guest In The Bath-->
+        <!--Guest In The Bath View Controller-->
         <scene sceneID="9Jn-wj-fAz">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="GEK-UI-AUO" customClass="GuestInTheBath" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="GEK-UI-AUO" customClass="GuestInTheBathViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jmx-Pv-ar5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -534,12 +534,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8G7-0K-dkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4740" y="78"/>
+            <point key="canvasLocation" x="1974" y="750"/>
         </scene>
-        <!--Jouren In The Bath-->
+        <!--Jouren In The Bath View Controller-->
         <scene sceneID="xLD-XL-cYU">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="bEU-X5-tCf" customClass="jourenInTheBath" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="bEU-X5-tCf" customClass="jourenInTheBathViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5WL-u3-Dsi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -627,10 +627,10 @@ XXX湯に来た誰かのお風呂代を
             </objects>
             <point key="canvasLocation" x="2590" y="750"/>
         </scene>
-        <!--Jouren Gachi Pay-->
+        <!--Jouren Gachi Pay View Controller-->
         <scene sceneID="BQV-HR-k70">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xFg-4l-0F3" customClass="jourenGachiPay" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xFg-4l-0F3" customClass="jourenGachiPayViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mYY-CH-WXZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -773,10 +773,10 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
             </objects>
             <point key="canvasLocation" x="3190" y="750"/>
         </scene>
-        <!--Bank Number-->
+        <!--Bank Number View Controller-->
         <scene sceneID="4gt-ae-A4X">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="xow-fb-brt" customClass="bankNumber" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="xow-fb-brt" customClass="bankNumberViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OOW-Bd-FOw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -824,18 +824,29 @@ XXX湯
                                     <segue destination="GEK-UI-AUO" kind="show" id="VRP-1N-YHs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="みんなに確認中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHA-93-23A">
+                                <rect key="frame" x="131" y="63" width="112" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jTR-AD-4Zx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="OHA-93-23A" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="63" id="03M-bK-sgg"/>
                             <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="97" id="0wo-8b-TRr"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="lf1-iZ-n6m" secondAttribute="trailing" constant="68" id="1VE-q9-9nS"/>
                             <constraint firstItem="lf1-iZ-n6m" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="67" id="9dF-KG-b8w"/>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="OHA-93-23A" secondAttribute="bottom" constant="-16" id="DN8-bB-TFR"/>
                             <constraint firstItem="SBw-Ut-4wg" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="111" id="K17-qV-zhK"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="OHA-93-23A" secondAttribute="bottom" constant="554" id="Onn-5J-f3e"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="OHA-93-23A" secondAttribute="trailing" constant="132" id="Pea-6Z-qXA"/>
                             <constraint firstItem="JdC-dF-3Wj" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="16" id="RZG-wV-Db3"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="JdC-dF-3Wj" secondAttribute="bottom" constant="612" id="X2v-TT-TUH"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="lf1-iZ-n6m" secondAttribute="bottom" constant="139" id="dF1-ZZ-Grf"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="JdC-dF-3Wj" secondAttribute="trailing" constant="203" id="eFH-yD-QuR"/>
+                            <constraint firstItem="OHA-93-23A" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="131" id="gnA-Qi-VXR"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="SBw-Ut-4wg" secondAttribute="trailing" constant="112" id="pUG-N3-HoX"/>
                             <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="SBw-Ut-4wg" secondAttribute="bottom" constant="96" id="rUG-hr-I7v"/>
                             <constraint firstItem="JdC-dF-3Wj" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="20" id="rYq-qR-TUc"/>
@@ -846,12 +857,12 @@ XXX湯
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enn-hi-K6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4357.6000000000004" y="784.85757121439292"/>
+            <point key="canvasLocation" x="3793" y="750"/>
         </scene>
-        <!--Iiyudaner Profile-->
+        <!--Iiyudaner Profile View Controller-->
         <scene sceneID="9AG-w1-VSg">
             <objects>
-                <viewController id="KOI-QU-SWE" customClass="iiyudanerProfile" sceneMemberID="viewController">
+                <viewController id="KOI-QU-SWE" customClass="iiyudanerProfileViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6k4-uk-EYT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -924,34 +935,34 @@ XXX湯
             </objects>
             <point key="canvasLocation" x="232.80000000000001" y="-530.28485757121439"/>
         </scene>
-        <!--Iiyudaner Top-->
+        <!--Iiyudaner Top View Controller-->
         <scene sceneID="VkM-wV-Xfu">
             <objects>
-                <viewController id="W3l-d3-QMi" customClass="iiyudanerTop" sceneMemberID="viewController">
+                <viewController id="W3l-d3-QMi" customClass="iiyudanerTopViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ac3-hC-0Fk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="657"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaK-6W-bQT">
-                                <rect key="frame" x="20" y="31" width="30" height="50"/>
+                                <rect key="frame" x="20" y="31" width="30" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iiyudaner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leE-wP-Pji">
-                                <rect key="frame" x="57" y="32" width="90" height="50"/>
+                                <rect key="frame" x="57" y="32" width="90" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <color key="highlightedColor" red="0.8862745098" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♨︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiS-bp-A7m">
-                                <rect key="frame" x="273" y="31" width="50" height="50"/>
+                                <rect key="frame" x="273" y="31" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⇆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehZ-6i-f47">
-                                <rect key="frame" x="311" y="32" width="30" height="50"/>
+                                <rect key="frame" x="311" y="32" width="30" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -983,19 +994,19 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-4N-zq4">
-                                <rect key="frame" x="21" y="530" width="50" height="50"/>
+                                <rect key="frame" x="21" y="530" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5br-LI-IZn">
-                                <rect key="frame" x="246" y="526" width="50" height="50"/>
+                                <rect key="frame" x="246" y="526" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVZ-dp-B1a">
-                                <rect key="frame" x="88" y="529" width="40" height="50"/>
+                                <rect key="frame" x="88" y="529" width="40" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1008,7 +1019,7 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔶" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHV-s3-ndD">
-                                <rect key="frame" x="162" y="528.5" width="50" height="50"/>
+                                <rect key="frame" x="162" y="528.5" width="50" height="60"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1018,7 +1029,7 @@ XXX湯
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7F-3y-Fty">
-                                <rect key="frame" x="301" y="522" width="74" height="80"/>
+                                <rect key="frame" x="301" y="522" width="74" height="90"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="☁️">
                                     <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -1081,10 +1092,10 @@ XXX湯
             </objects>
             <point key="canvasLocation" x="838" y="-530"/>
         </scene>
-        <!--Ukun Room-->
+        <!--Ukun Room View Controller-->
         <scene sceneID="GGC-Gd-f06">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="JK7-cC-eRt" customClass="YUKIROKUkunRoom" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="JK7-cC-eRt" customClass="YUKIROKUkunRoomViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eff-Uz-YLj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1291,10 +1302,10 @@ XXX湯
             </objects>
             <point key="canvasLocation" x="1444" y="-530"/>
         </scene>
-        <!--Machiaishitu-->
+        <!--Machiaishitu View Controller-->
         <scene sceneID="1Jt-q6-loQ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="D5B-8a-BDJ" customClass="machiaishitu" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="D5B-8a-BDJ" customClass="machiaishituViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wqa-RC-nNT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1405,16 +1416,21 @@ XXX湯
             </objects>
             <point key="canvasLocation" x="838" y="107"/>
         </scene>
-        <!--Genkan-->
+        <!--Genkan View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="genkan" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="genkanViewController" customModule="YUSOKU" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx0-CN-JGT">
-                                <rect key="frame" x="137" y="283" width="100" height="100"/>
+                                <rect key="frame" x="137" y="300" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="OY0-lY-Tk5"/>
+                                    <constraint firstAttribute="height" constant="50" id="mhj-Hp-fqd"/>
+                                    <constraint firstAttribute="width" constant="100" id="u5t-mZ-h7g"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="♨️"/>
                                 <connections>
@@ -1425,10 +1441,11 @@ XXX湯
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dx0-CN-JGT" secondAttribute="trailing" constant="138" id="HiX-bc-t2p"/>
-                            <constraint firstItem="dx0-CN-JGT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="Soa-2g-eGS"/>
-                            <constraint firstItem="dx0-CN-JGT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="283" id="jaE-FT-cgp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dx0-CN-JGT" secondAttribute="bottom" constant="284" id="sAm-kv-IeE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dx0-CN-JGT" secondAttribute="trailing" constant="138" id="8gO-4p-c27"/>
+                            <constraint firstItem="dx0-CN-JGT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="CWw-NW-uuo"/>
+                            <constraint firstItem="dx0-CN-JGT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="b5W-gh-MaO"/>
+                            <constraint firstItem="dx0-CN-JGT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="gT5-gb-6zh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dx0-CN-JGT" secondAttribute="bottom" constant="317" id="sUX-GA-n5e"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="opQ-y8-8S2"/>
@@ -1439,12 +1456,12 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eT9-OX-BpN"/>
-        <segue reference="AvQ-PU-43V"/>
+        <segue reference="UUe-sq-fJV"/>
+        <segue reference="df7-hL-HUl"/>
         <segue reference="mIg-hL-7hN"/>
         <segue reference="dYj-TQ-O1b"/>
-        <segue reference="ZxN-gX-BNu"/>
-        <segue reference="k72-Cc-SK3"/>
+        <segue reference="rcw-se-rBH"/>
+        <segue reference="O47-U2-Goa"/>
         <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1464,7 +1481,7 @@ XXX湯
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

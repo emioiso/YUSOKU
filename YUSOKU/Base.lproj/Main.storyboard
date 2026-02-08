@@ -929,29 +929,29 @@ XXX湯
             <objects>
                 <viewController id="W3l-d3-QMi" customClass="iiyudanerTop" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ac3-hC-0Fk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="657"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaK-6W-bQT">
-                                <rect key="frame" x="20" y="31" width="30" height="60"/>
+                                <rect key="frame" x="20" y="31" width="30" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iiyudaner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leE-wP-Pji">
-                                <rect key="frame" x="57" y="32" width="90" height="60"/>
+                                <rect key="frame" x="57" y="32" width="90" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <color key="highlightedColor" red="0.8862745098" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♨︎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiS-bp-A7m">
-                                <rect key="frame" x="273" y="31" width="50" height="60"/>
+                                <rect key="frame" x="273" y="31" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⇆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehZ-6i-f47">
-                                <rect key="frame" x="311" y="32" width="30" height="60"/>
+                                <rect key="frame" x="311" y="32" width="30" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -983,19 +983,19 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔥" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYN-4N-zq4">
-                                <rect key="frame" x="21" y="530" width="50" height="60"/>
+                                <rect key="frame" x="21" y="530" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5br-LI-IZn">
-                                <rect key="frame" x="246" y="526" width="50" height="60"/>
+                                <rect key="frame" x="246" y="526" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVZ-dp-B1a">
-                                <rect key="frame" x="88" y="529" width="40" height="60"/>
+                                <rect key="frame" x="88" y="529" width="40" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1008,7 +1008,7 @@ XXX湯
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔶" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHV-s3-ndD">
-                                <rect key="frame" x="162" y="528.5" width="50" height="60"/>
+                                <rect key="frame" x="162" y="528.5" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1018,7 +1018,7 @@ XXX湯
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7F-3y-Fty">
-                                <rect key="frame" x="301" y="522" width="74" height="90"/>
+                                <rect key="frame" x="301" y="522" width="74" height="80"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="☁️">
                                     <fontDescription key="titleFontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="50"/>
@@ -1204,12 +1204,6 @@ XXX湯
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLk-Ad-jhE">
-                                <rect key="frame" x="271" y="300" width="55" height="58"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🦷" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-2I-f2d">
                                 <rect key="frame" x="101" y="448" width="200" height="162"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="200"/>
@@ -1249,7 +1243,6 @@ XXX湯
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="bottom" secondItem="O9q-Za-HmB" secondAttribute="bottom" constant="156" id="CmL-3T-Phk"/>
                             <constraint firstItem="iPR-Q3-5HL" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="20" id="CoY-eS-SV3"/>
                             <constraint firstItem="ysD-bB-2cQ" firstAttribute="leading" secondItem="qtC-Rz-x5c" secondAttribute="leading" constant="82" id="DLP-bT-y9J"/>
-                            <constraint firstItem="qLk-Ad-jhE" firstAttribute="leading" secondItem="qtC-Rz-x5c" secondAttribute="leading" constant="271" id="ELc-49-Pg4"/>
                             <constraint firstItem="b4t-rO-B7W" firstAttribute="leading" secondItem="qtC-Rz-x5c" secondAttribute="leading" constant="59" id="HVh-Rx-ZaN"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="o2B-3K-Lc6" secondAttribute="trailing" constant="194" id="KfC-RH-OLF"/>
                             <constraint firstItem="2Ya-vF-HmH" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="360" id="MEq-M9-FCu"/>
@@ -1271,13 +1264,11 @@ XXX湯
                             <constraint firstItem="Xmb-2I-f2d" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="448" id="bSY-vd-39e"/>
                             <constraint firstItem="uxl-8X-3cy" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="18" id="cIJ-gO-RXe"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="bottom" secondItem="iPR-Q3-5HL" secondAttribute="bottom" constant="588" id="cJf-EF-NLb"/>
-                            <constraint firstItem="qtC-Rz-x5c" firstAttribute="bottom" secondItem="qLk-Ad-jhE" secondAttribute="bottom" constant="309" id="cMW-gu-Ata"/>
                             <constraint firstItem="2Ya-vF-HmH" firstAttribute="leading" secondItem="qtC-Rz-x5c" secondAttribute="leading" constant="18" id="ccs-Zu-IaI"/>
                             <constraint firstItem="Xmb-2I-f2d" firstAttribute="leading" secondItem="qtC-Rz-x5c" secondAttribute="leading" constant="101" id="coL-40-8w1"/>
                             <constraint firstItem="l8y-oY-j72" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="18" id="dxW-px-LYe"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="Xmb-2I-f2d" secondAttribute="trailing" constant="74" id="ebu-S7-QCA"/>
                             <constraint firstItem="O9q-Za-HmB" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="470" id="f4R-X9-baR"/>
-                            <constraint firstItem="qLk-Ad-jhE" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="300" id="f6n-wd-uoI"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="leading" secondItem="o2B-3K-Lc6" secondAttribute="leading" constant="37" id="fKQ-St-QLv"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="1Z2-Av-o8z" secondAttribute="trailing" constant="257" id="hd3-z3-COb"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="1iy-t5-HTP" secondAttribute="trailing" id="jNS-jx-DAs"/>
@@ -1287,7 +1278,6 @@ XXX湯
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="bottom" secondItem="ysD-bB-2cQ" secondAttribute="bottom" constant="589" id="rpp-8S-FCL"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="R0W-jM-jrT" secondAttribute="trailing" constant="225" id="tbW-Ro-dDR"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="iPR-Q3-5HL" secondAttribute="trailing" constant="116" id="vLf-8V-386"/>
-                            <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="qLk-Ad-jhE" secondAttribute="trailing" constant="49" id="vWk-xw-feq"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="trailing" secondItem="uxl-8X-3cy" secondAttribute="trailing" constant="307" id="w9Y-Xf-Hgx"/>
                             <constraint firstItem="hNd-NH-8V4" firstAttribute="top" secondItem="qtC-Rz-x5c" secondAttribute="top" constant="519" id="xFZ-uZ-arT"/>
                             <constraint firstItem="qtC-Rz-x5c" firstAttribute="bottom" secondItem="1Z2-Av-o8z" secondAttribute="bottom" constant="227" id="y3P-e4-c9h"/>
@@ -1446,8 +1436,8 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eT9-OX-BpN"/>
-        <segue reference="df7-hL-HUl"/>
+        <segue reference="hM1-D2-RYI"/>
+        <segue reference="AvQ-PU-43V"/>
         <segue reference="MCM-Tb-nQS"/>
         <segue reference="lQP-3f-WfR"/>
         <segue reference="ZxN-gX-BNu"/>
@@ -1471,7 +1461,7 @@ XXX湯
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

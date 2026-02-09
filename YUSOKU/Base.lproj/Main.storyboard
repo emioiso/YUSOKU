@@ -114,7 +114,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdY-Y5-cAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1444" y="108"/>
+            <point key="canvasLocation" x="1444" y="107"/>
         </scene>
         <!--Lockers For Tanaka View Controller-->
         <scene sceneID="OgA-uf-dqS">
@@ -180,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4c-Am-qOA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2049" y="108"/>
+            <point key="canvasLocation" x="2049" y="107"/>
         </scene>
         <!--Ukun Sopwatch Room View Controller-->
         <scene sceneID="vYw-Ff-tp5">
@@ -619,87 +619,103 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="遠隔常連になる" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyI-61-h9c">
-                                <rect key="frame" x="131" y="93" width="112" height="50"/>
+                                <rect key="frame" x="131" y="56" width="112" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aOI-1U-Amz"/>
+                                    <constraint firstAttribute="width" constant="112" id="idU-Pf-RQH"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
-                                <rect key="frame" x="9" y="485" width="358" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になるに同意したので銀行口座を見る"/>
-                                <connections>
-                                    <segue destination="xFg-4l-0F3" kind="show" id="Ehk-61-44n"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlM-AB-DU4">
-                                <rect key="frame" x="16" y="28" width="156" height="50"/>
+                                <rect key="frame" x="16" y="20" width="156" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.5" id="dia-1F-5rx"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="WuD-NT-TKX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
-                                <rect key="frame" x="112" y="548" width="152" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="GEK-UI-AUO" kind="show" id="NVP-5n-YIv"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ef-qp-JvG">
-                                <rect key="frame" x="47" y="177" width="300" height="300"/>
+                                <rect key="frame" x="0.0" y="133" width="375" height="300"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="3Fz-oj-Igf"/>
+                                    <constraint firstAttribute="height" constant="300" id="gqq-YO-KGJ"/>
+                                </constraints>
                                 <string key="text">♨️遠隔常連になるとは？♨️
 
 遠隔常連を選択すると、
 XXX湯に来た誰かのお風呂代を
 遠隔で支えることができます。
 
-入金は500円単位、恐れ入りますが、振り込み手数料は遠隔常連さんのご負担となります。
+入金は500円単位、恐れ入りますが、振り込み手数料は
+遠隔常連さんのご負担となります。
 返金はできません。
-また、通帳記入時に「何人分の奢り風呂があったか」をまとめてお知らせする場合があります。
+また、通帳記入時に「何人分の奢り風呂があったか」を
+まとめてお知らせする場合があります。
 が、まだ何も決まっていないので決まり次第、
 どこかの何かで発表します。</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jgU-KG-olj">
+                                <rect key="frame" x="8" y="457" width="358" height="105"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSt-8c-g4Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="DmE-Y8-ySe"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="遠隔常連になるに同意したので銀行口座を見る"/>
+                                        <connections>
+                                            <segue destination="xFg-4l-0F3" kind="show" id="Ehk-61-44n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2e-di-gtM">
+                                        <rect key="frame" x="0.0" y="55" width="358" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dPa-ge-8yG"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                        <connections>
+                                            <segue destination="GEK-UI-AUO" kind="show" id="NVP-5n-YIv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="358" id="LOR-dT-bT1"/>
+                                    <constraint firstAttribute="height" constant="105" id="T5f-ok-GK7"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vj1-Ob-uTb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="i2e-di-gtM" secondAttribute="bottom" constant="69" id="02n-Cm-x6B"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="177" id="0ky-d8-yGA"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="DyI-61-h9c" secondAttribute="trailing" constant="132" id="3FF-Hb-Zdm"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="nlM-AB-DU4" secondAttribute="trailing" constant="203" id="3sg-eW-e3i"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="485" id="590-6W-Oep"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="13" id="6jR-4s-Yb0"/>
-                            <constraint firstItem="DyI-61-h9c" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="131" id="97R-c0-C7p"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="9" id="LHL-GK-erx"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="nlM-AB-DU4" secondAttribute="bottom" constant="589" id="QHt-6P-8v8"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="pSt-8c-g4Q" secondAttribute="bottom" constant="132" id="U8t-Mm-LWk"/>
-                            <constraint firstItem="DyI-61-h9c" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="93" id="WOn-hp-TxB"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="524" id="Z9I-fY-qnS"/>
-                            <constraint firstItem="nlM-AB-DU4" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="28" id="ZDr-zN-vIo"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="47" id="ciC-Dr-l7x"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="pSt-8c-g4Q" secondAttribute="trailing" constant="8" id="dK1-TX-yyy"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="112" id="iCc-fx-yeg"/>
-                            <constraint firstItem="i2e-di-gtM" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="548" id="kO7-Sc-adC"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="0ef-qp-JvG" secondAttribute="trailing" constant="28" id="lAK-e7-3dT"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="i2e-di-gtM" secondAttribute="trailing" constant="111" id="pkZ-NR-rUt"/>
-                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="bottom" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="190" id="u0N-MB-ORx"/>
-                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="34" id="uWr-kG-j4B"/>
-                            <constraint firstItem="pSt-8c-g4Q" firstAttribute="top" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="8" symbolic="YES" id="xKP-v0-w46"/>
-                            <constraint firstItem="nlM-AB-DU4" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="ybm-Sn-Ehb"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="DyI-61-h9c" secondAttribute="trailing" constant="132" id="5a4-ab-oUO"/>
+                            <constraint firstItem="jgU-KG-olj" firstAttribute="top" secondItem="0ef-qp-JvG" secondAttribute="bottom" constant="24" id="E1J-pt-kpl"/>
+                            <constraint firstItem="jgU-KG-olj" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="8" id="I08-of-mcP"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="top" secondItem="nlM-AB-DU4" secondAttribute="bottom" constant="1.5" id="I6L-T3-oEu"/>
+                            <constraint firstItem="DyI-61-h9c" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="131" id="KZb-eU-t9n"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="trailing" secondItem="Vj1-Ob-uTb" secondAttribute="trailing" id="VMJ-ai-W6F"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="top" secondItem="Vj1-Ob-uTb" secondAttribute="top" constant="20" id="YYc-dX-wLs"/>
+                            <constraint firstItem="nlM-AB-DU4" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" constant="16" id="cUR-Lw-2Zw"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="leading" secondItem="Vj1-Ob-uTb" secondAttribute="leading" id="eAd-Hr-ra2"/>
+                            <constraint firstItem="0ef-qp-JvG" firstAttribute="top" secondItem="DyI-61-h9c" secondAttribute="bottom" constant="27" id="geb-ia-WM7"/>
+                            <constraint firstItem="Vj1-Ob-uTb" firstAttribute="trailing" secondItem="jgU-KG-olj" secondAttribute="trailing" constant="9" id="tqE-hu-Tna"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3r2-I5-4WM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j2P-Or-Mkt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2590" y="750"/>
+            <point key="canvasLocation" x="2049" y="750"/>
         </scene>
         <!--Jouren Gachi Pay View Controller-->
         <scene sceneID="BQV-HR-k70">
@@ -1538,13 +1554,13 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eT9-OX-BpN"/>
+        <segue reference="WuD-NT-TKX"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="MCM-Tb-nQS"/>
-        <segue reference="lQP-3f-WfR"/>
+        <segue reference="mIg-hL-7hN"/>
+        <segue reference="NVP-5n-YIv"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="dFc-zm-v9x"/>
+        <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKUkun _cleanning" width="1024" height="1024"/>

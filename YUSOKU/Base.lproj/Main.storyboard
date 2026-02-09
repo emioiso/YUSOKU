@@ -261,7 +261,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sqt-FK-Die">
-                                <rect key="frame" x="16" y="25" width="276.5" height="50"/>
+                                <rect key="frame" x="16" y="20" width="276.5" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.5" id="1s7-qW-ZvD"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)のロッカーに戻る"/>
                                 <connections>
@@ -275,9 +278,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タナカさん(仮)風呂RTA記録" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlQ-3n-4dG">
+                                <rect key="frame" x="82" y="70" width="210.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Dpq-M2-2zp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf1-Wt-idb">
-                                <rect key="frame" x="0.0" y="147" width="375" height="343"/>
+                                <rect key="frame" x="0.0" y="116" width="375" height="360"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="6ed-Il-XP2"/>
+                                    <constraint firstAttribute="height" constant="360" id="UDs-Vn-Irx"/>
+                                </constraints>
                                 <string key="text">2025/12/31(水)24:14.72
 
 2025/11/30(日) 計測不能
@@ -301,18 +317,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タナカさん(仮)風呂RTA記録" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlQ-3n-4dG">
-                                <rect key="frame" x="86.5" y="85" width="210.5" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="210" id="4TA-5T-tfk"/>
-                                    <constraint firstAttribute="height" constant="50" id="xtZ-5c-cvA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O30-Lz-ccR">
-                                <rect key="frame" x="209" y="507" width="150" height="50"/>
+                                <rect key="frame" x="209" y="477" width="150" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.5" id="I1l-Gx-HpB"/>
+                                    <constraint firstAttribute="width" constant="150" id="Scp-sd-JOT"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="記録のお部屋⏱️"/>
                                 <connections>
@@ -323,28 +333,25 @@
                         <viewLayoutGuide key="safeArea" id="97h-oQ-GmO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="O30-Lz-ccR" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="507" id="DLZ-ib-KGt"/>
-                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="top" secondItem="Sqt-FK-Die" secondAttribute="bottom" constant="10" id="DkZ-D2-uho"/>
-                            <constraint firstItem="Sqt-FK-Die" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="25" id="L89-hG-wRj"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="Pf1-Wt-idb" secondAttribute="bottom" constant="177" id="OdZ-6O-COQ"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="O30-Lz-ccR" secondAttribute="trailing" constant="16" id="Si9-QE-hkY"/>
-                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="86.5" id="Tw8-mW-fhg"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="Sqt-FK-Die" secondAttribute="trailing" constant="82.5" id="c09-vZ-KtO"/>
-                            <constraint firstItem="O30-Lz-ccR" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="209" id="jxR-df-ceQ"/>
-                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="147" id="o22-GJ-q9E"/>
-                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" id="okV-px-MNl"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="nlQ-3n-4dG" secondAttribute="trailing" constant="78" id="pyG-9R-X3a"/>
-                            <constraint firstItem="Sqt-FK-Die" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="16" id="qec-XA-BeH"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="Sqt-FK-Die" secondAttribute="bottom" constant="592" id="sn3-u3-sTC"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="O30-Lz-ccR" secondAttribute="bottom" constant="110" id="u9L-QK-qyH"/>
-                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="Pf1-Wt-idb" secondAttribute="trailing" id="wHy-nt-GNa"/>
+                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="82" id="5OB-qX-h7L"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="Sqt-FK-Die" secondAttribute="trailing" constant="82.5" id="8gF-Jt-lB8"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="116" id="B0f-cM-LTG"/>
+                            <constraint firstItem="nlQ-3n-4dG" firstAttribute="top" secondItem="Sqt-FK-Die" secondAttribute="bottom" constant="15.5" id="H2E-xw-MYG"/>
+                            <constraint firstItem="Sqt-FK-Die" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="16" id="LFP-bw-g7n"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="trailing" secondItem="97h-oQ-GmO" secondAttribute="trailing" id="NSw-87-aY8"/>
+                            <constraint firstItem="O30-Lz-ccR" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" constant="209" id="R45-Ab-e3s"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="O30-Lz-ccR" secondAttribute="trailing" constant="16" id="TMa-B5-GCX"/>
+                            <constraint firstItem="Pf1-Wt-idb" firstAttribute="leading" secondItem="97h-oQ-GmO" secondAttribute="leading" id="Vso-uU-u4H"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="trailing" secondItem="nlQ-3n-4dG" secondAttribute="trailing" constant="82.5" id="b5L-dG-czL"/>
+                            <constraint firstItem="Sqt-FK-Die" firstAttribute="top" secondItem="97h-oQ-GmO" secondAttribute="top" constant="20" id="fOm-Kv-2yv"/>
+                            <constraint firstItem="97h-oQ-GmO" firstAttribute="bottom" secondItem="O30-Lz-ccR" secondAttribute="bottom" constant="155.5" id="pj3-nN-d3T"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EwA-8h-mE5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDe-at-8ZW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2590" y="109"/>
+            <point key="canvasLocation" x="2652" y="108"/>
         </scene>
         <!--Blacked Out Consent Form View Controller-->
         <scene sceneID="Fbs-Vm-gcG">
@@ -1480,7 +1487,7 @@ XXX湯
         <segue reference="qqm-gr-Pl7"/>
         <segue reference="GoF-rk-zc7"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="k72-Cc-SK3"/>
+        <segue reference="2pb-bu-Cya"/>
         <segue reference="dFc-zm-v9x"/>
     </inferredMetricsTieBreakers>
     <resources>

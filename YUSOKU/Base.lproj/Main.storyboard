@@ -269,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNG-JL-VwS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1260" y="107"/>
+            <point key="canvasLocation" x="2652" y="-530"/>
         </scene>
         <!--TanakaRTA View Controller-->
         <scene sceneID="B1L-2R-cgI">
@@ -436,85 +436,103 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A5-xI-wme">
-                                <rect key="frame" x="12" y="20" width="160" height="50"/>
+                                <rect key="frame" x="12" y="20" width="156" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.5" id="ccV-CI-S2e"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="aLH-hp-EbQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJt-If-Du8">
-                                <rect key="frame" x="100" y="461" width="160" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="GEK-UI-AUO" kind="show" id="lQP-3f-WfR"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="女脱衣所は配管が壊れて修繕中です。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekw-Fl-OFA">
-                                <rect key="frame" x="49" y="144" width="270" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="リフォーム中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzO-a3-xAo">
-                                <rect key="frame" x="135" y="188" width="100" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gZi-hB-Jrb">
+                                <rect key="frame" x="27" y="80" width="307.5" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="申し訳ございません。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FzO-a3-xAo">
+                                        <rect key="frame" x="0.0" y="0.0" width="307.5" height="29.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="＼ 女脱衣所は配管が壊れて修繕中です。／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekw-Fl-OFA">
+                                        <rect key="frame" x="0.0" y="29.5" width="307.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kx6-Zo-0kq"/>
+                                </constraints>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yy-JQ-wPG">
-                                <rect key="frame" x="161" y="246" width="50" height="50"/>
+                                <rect key="frame" x="155" y="140" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="GvB-0v-r1k"/>
+                                    <constraint firstAttribute="width" constant="50" id="gaE-aH-2Xe"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="🙇🏻‍♀️"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
-                                <rect key="frame" x="100.5" y="532" width="159.5" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
-                                <connections>
-                                    <segue destination="bEU-X5-tCf" kind="show" id="MCM-Tb-nQS"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="E0y-nc-gLj">
+                                <rect key="frame" x="37" y="457" width="300" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJt-If-Du8">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="VDR-A3-KVi"/>
+                                            <constraint firstAttribute="height" constant="50" id="XJb-ff-DC2"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                        <connections>
+                                            <segue destination="GEK-UI-AUO" kind="show" id="lQP-3f-WfR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXX-3a-27t">
+                                        <rect key="frame" x="0.0" y="60" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="A3d-EE-irh"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
+                                        <connections>
+                                            <segue destination="bEU-X5-tCf" kind="show" id="MCM-Tb-nQS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="q0g-rJ-4z1"/>
+                                    <constraint firstAttribute="width" constant="300" id="uHx-bn-lzY"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HUZ-hr-1Nt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="ekw-Fl-OFA" secondAttribute="trailing" constant="56" id="10Z-5p-Bxg"/>
-                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="246" id="1IP-xO-tkE"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="FzO-a3-xAo" secondAttribute="trailing" constant="140" id="1VZ-Jk-xih"/>
-                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="161" id="3yl-tf-JVz"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="FzO-a3-xAo" secondAttribute="bottom" constant="429" id="5Iz-rQ-dHC"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="oXX-3a-27t" secondAttribute="trailing" constant="115" id="5MN-e6-Qvq"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="6A5-xI-wme" secondAttribute="trailing" constant="203" id="8v6-JV-WBf"/>
-                            <constraint firstItem="oXX-3a-27t" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="532" id="A5S-KS-n8o"/>
-                            <constraint firstItem="FzO-a3-xAo" firstAttribute="top" secondItem="ekw-Fl-OFA" secondAttribute="bottom" constant="-6" id="Clj-Ri-DVH"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="1yy-JQ-wPG" secondAttribute="trailing" constant="164" id="DuZ-sB-kn8"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="bJt-If-Du8" secondAttribute="bottom" constant="156" id="EvR-ts-6Fo"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="6A5-xI-wme" secondAttribute="bottom" constant="597" id="GKM-6p-8AR"/>
-                            <constraint firstItem="6A5-xI-wme" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="12" id="IcQ-h3-OLI"/>
-                            <constraint firstItem="bJt-If-Du8" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="461" id="QwN-Er-1rb"/>
-                            <constraint firstItem="oXX-3a-27t" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="100.5" id="Sm2-ql-Fl9"/>
-                            <constraint firstItem="bJt-If-Du8" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="100" id="U40-vH-UFZ"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="bJt-If-Du8" secondAttribute="trailing" constant="115" id="Vsl-Zl-qDc"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="1yy-JQ-wPG" secondAttribute="bottom" constant="371" id="Xe8-7D-7NN"/>
-                            <constraint firstItem="FzO-a3-xAo" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="135" id="YfY-aD-8Qm"/>
-                            <constraint firstItem="bJt-If-Du8" firstAttribute="top" secondItem="1yy-JQ-wPG" secondAttribute="bottom" constant="165" id="ciW-Xh-9Qr"/>
-                            <constraint firstItem="ekw-Fl-OFA" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="144" id="iW7-Si-dvB"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="oXX-3a-27t" secondAttribute="bottom" constant="85" id="ie0-5l-5Lk"/>
-                            <constraint firstItem="ekw-Fl-OFA" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="49" id="jdw-AM-72X"/>
-                            <constraint firstItem="oXX-3a-27t" firstAttribute="top" secondItem="bJt-If-Du8" secondAttribute="bottom" constant="21" id="mBM-71-rdb"/>
-                            <constraint firstItem="6A5-xI-wme" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="20" id="pnh-jU-YXw"/>
-                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="ekw-Fl-OFA" secondAttribute="bottom" constant="473" id="pts-TI-NTj"/>
-                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="top" secondItem="FzO-a3-xAo" secondAttribute="bottom" constant="8" symbolic="YES" id="rLm-l6-aR8"/>
-                            <constraint firstItem="FzO-a3-xAo" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="188" id="xeq-dG-UWA"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="gZi-hB-Jrb" secondAttribute="trailing" constant="40.5" id="28i-rE-K7P"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="E0y-nc-gLj" secondAttribute="trailing" constant="38" id="Bzw-k4-HWA"/>
+                            <constraint firstItem="E0y-nc-gLj" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="37" id="CTA-of-oqB"/>
+                            <constraint firstItem="E0y-nc-gLj" firstAttribute="top" secondItem="1yy-JQ-wPG" secondAttribute="bottom" constant="267" id="IWv-Au-XM0"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="E0y-nc-gLj" secondAttribute="bottom" constant="100" id="O4n-AI-rIy"/>
+                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="top" secondItem="gZi-hB-Jrb" secondAttribute="bottom" constant="10" id="QMg-S2-WXg"/>
+                            <constraint firstItem="gZi-hB-Jrb" firstAttribute="top" secondItem="6A5-xI-wme" secondAttribute="bottom" constant="25.5" id="Vqa-vQ-a4I"/>
+                            <constraint firstItem="6A5-xI-wme" firstAttribute="top" secondItem="HUZ-hr-1Nt" secondAttribute="top" constant="20" id="XfU-jy-k9Z"/>
+                            <constraint firstItem="gZi-hB-Jrb" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="27" id="bdh-A8-LP6"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="1yy-JQ-wPG" secondAttribute="trailing" constant="170" id="hRC-rU-Hcu"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="bottom" secondItem="gZi-hB-Jrb" secondAttribute="bottom" constant="537" id="jdN-sZ-5EN"/>
+                            <constraint firstItem="gZi-hB-Jrb" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="27" id="jsz-Z7-bhv"/>
+                            <constraint firstItem="6A5-xI-wme" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="12" id="k9o-xu-8vw"/>
+                            <constraint firstItem="1yy-JQ-wPG" firstAttribute="leading" secondItem="HUZ-hr-1Nt" secondAttribute="leading" constant="155" id="sHA-M3-kCN"/>
+                            <constraint firstItem="HUZ-hr-1Nt" firstAttribute="trailing" secondItem="gZi-hB-Jrb" secondAttribute="trailing" constant="40.5" id="vLJ-WF-WRs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0be-Tl-cIS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMm-to-gNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="750"/>
+            <point key="canvasLocation" x="1180" y="106.59670164917542"/>
         </scene>
         <!--Guest In The Bath View Controller-->
         <scene sceneID="9Jn-wj-fAz">
@@ -1508,10 +1526,10 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sVH-9R-Syh"/>
+        <segue reference="aLH-hp-EbQ"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="mIg-hL-7hN"/>
-        <segue reference="dYj-TQ-O1b"/>
+        <segue reference="MCM-Tb-nQS"/>
+        <segue reference="lQP-3f-WfR"/>
         <segue reference="rcw-se-rBH"/>
         <segue reference="O47-U2-Goa"/>
         <segue reference="dFc-zm-v9x"/>

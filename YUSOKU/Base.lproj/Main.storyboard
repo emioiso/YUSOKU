@@ -181,15 +181,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPK-2F-qMN">
-                                <rect key="frame" x="37.5" y="511" width="299.5" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)風呂RTA記録を見る"/>
-                                <connections>
-                                    <segue destination="Wr9-r0-XcM" kind="show" id="rcw-se-rBH"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iiyudaner" translatesAutoresizingMaskIntoConstraints="NO" id="aXk-bp-eF3">
                                 <rect key="frame" x="69" y="137" width="240" height="260"/>
                                 <constraints>
@@ -228,24 +219,49 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0c-B6-iQY">
-                                <rect key="frame" x="108" y="453" width="159.5" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="合言葉を入力する"/>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NOR-7k-ZV2">
+                                <rect key="frame" x="42" y="459" width="295.5" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0c-B6-iQY">
+                                        <rect key="frame" x="0.0" y="0.0" width="295.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Ify-72-jDj"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="合言葉を入力する"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPK-2F-qMN">
+                                        <rect key="frame" x="0.0" y="60" width="295.5" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="IBA-UG-dbt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)風呂RTA記録を見る"/>
+                                        <connections>
+                                            <segue destination="Wr9-r0-XcM" kind="show" id="rcw-se-rBH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295.5" id="RxP-p2-y9q"/>
+                                    <constraint firstAttribute="height" constant="110" id="oEk-XU-nar"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="adU-5j-scf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="NDB-yO-d9x" firstAttribute="leading" secondItem="adU-5j-scf" secondAttribute="leading" constant="73" id="5ZZ-Du-Jnp"/>
+                            <constraint firstItem="NOR-7k-ZV2" firstAttribute="leading" secondItem="adU-5j-scf" secondAttribute="leading" constant="42" id="89k-Jv-xR7"/>
                             <constraint firstItem="NDB-yO-d9x" firstAttribute="top" secondItem="adU-5j-scf" secondAttribute="top" constant="20" id="9QG-6D-1go"/>
+                            <constraint firstItem="adU-5j-scf" firstAttribute="trailing" secondItem="NOR-7k-ZV2" secondAttribute="trailing" constant="37.5" id="Cgb-Nb-D8R"/>
                             <constraint firstItem="adU-5j-scf" firstAttribute="trailing" secondItem="w2l-os-147" secondAttribute="trailing" constant="27" id="Ldx-4z-qx0"/>
                             <constraint firstItem="w2l-os-147" firstAttribute="top" secondItem="NDB-yO-d9x" secondAttribute="bottom" constant="21" id="UJJ-mU-bwq"/>
                             <constraint firstItem="adU-5j-scf" firstAttribute="trailing" secondItem="aXk-bp-eF3" secondAttribute="trailing" constant="66" id="Wwx-dh-0Er"/>
                             <constraint firstItem="aXk-bp-eF3" firstAttribute="top" secondItem="w2l-os-147" secondAttribute="bottom" constant="5" id="XPt-gg-F9S"/>
                             <constraint firstItem="w2l-os-147" firstAttribute="leading" secondItem="adU-5j-scf" secondAttribute="leading" constant="37" id="arh-vX-cOg"/>
                             <constraint firstItem="aXk-bp-eF3" firstAttribute="leading" secondItem="adU-5j-scf" secondAttribute="leading" constant="69" id="gph-Mg-jLE"/>
+                            <constraint firstItem="NOR-7k-ZV2" firstAttribute="top" secondItem="aXk-bp-eF3" secondAttribute="bottom" constant="62" id="mVK-Ar-GeJ"/>
                             <constraint firstItem="adU-5j-scf" firstAttribute="trailing" secondItem="NDB-yO-d9x" secondAttribute="trailing" constant="72.5" id="psc-XY-Y22"/>
                         </constraints>
                     </view>
@@ -253,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yNG-JL-VwS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052" y="106.59670164917542"/>
+            <point key="canvasLocation" x="1260" y="107"/>
         </scene>
         <!--TanakaRTA View Controller-->
         <scene sceneID="B1L-2R-cgI">
@@ -1494,8 +1510,8 @@ XXX湯
     <inferredMetricsTieBreakers>
         <segue reference="sVH-9R-Syh"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="qqm-gr-Pl7"/>
-        <segue reference="GoF-rk-zc7"/>
+        <segue reference="mIg-hL-7hN"/>
+        <segue reference="dYj-TQ-O1b"/>
         <segue reference="rcw-se-rBH"/>
         <segue reference="O47-U2-Goa"/>
         <segue reference="dFc-zm-v9x"/>

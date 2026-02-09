@@ -888,9 +888,13 @@ XXX湯の現地に来た誰かのお風呂代を、遠隔でそっと奢る
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
-                                <rect key="frame" x="67" y="97" width="240" height="431"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lf1-iZ-n6m">
+                                <rect key="frame" x="0.0" y="121" width="375" height="364"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="364" id="943-tY-eIi"/>
+                                    <constraint firstAttribute="width" constant="375" id="MKC-we-iJ0"/>
+                                </constraints>
                                 <string key="text">① 銀行名
 
 銀行
@@ -917,54 +921,63 @@ XXX湯
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdC-dF-3Wj">
                                 <rect key="frame" x="16" y="20" width="156" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ADw-2a-rUC"/>
+                                    <constraint firstAttribute="width" constant="156" id="JKS-YP-Ucv"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="w0F-NM-bhB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHA-93-23A">
+                                <rect key="frame" x="80" y="65" width="215" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="2tf-Q8-gNl"/>
+                                    <constraint firstAttribute="width" constant="215" id="kpC-1T-Sy4"/>
+                                </constraints>
+                                <string key="text">みんなに確認中なので
+まだ詳細を表示できません</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.8862745098" green="0.63921568630000003" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBw-Ut-4wg">
-                                <rect key="frame" x="111" y="536" width="152" height="35"/>
+                                <rect key="frame" x="37" y="512" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="3bE-Pk-MaF"/>
+                                    <constraint firstAttribute="height" constant="50" id="peH-KJ-koU"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                 <connections>
                                     <segue destination="GEK-UI-AUO" kind="show" id="VRP-1N-YHs"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="みんなに確認中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHA-93-23A">
-                                <rect key="frame" x="131" y="63" width="112" height="50"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jTR-AD-4Zx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="OHA-93-23A" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="63" id="03M-bK-sgg"/>
-                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="97" id="0wo-8b-TRr"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="lf1-iZ-n6m" secondAttribute="trailing" constant="68" id="1VE-q9-9nS"/>
-                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="67" id="9dF-KG-b8w"/>
-                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="OHA-93-23A" secondAttribute="bottom" constant="-16" id="DN8-bB-TFR"/>
-                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="111" id="K17-qV-zhK"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="OHA-93-23A" secondAttribute="bottom" constant="554" id="Onn-5J-f3e"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="OHA-93-23A" secondAttribute="trailing" constant="132" id="Pea-6Z-qXA"/>
-                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="16" id="RZG-wV-Db3"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="JdC-dF-3Wj" secondAttribute="bottom" constant="612" id="X2v-TT-TUH"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="lf1-iZ-n6m" secondAttribute="bottom" constant="139" id="dF1-ZZ-Grf"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="JdC-dF-3Wj" secondAttribute="trailing" constant="203" id="eFH-yD-QuR"/>
-                            <constraint firstItem="OHA-93-23A" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="131" id="gnA-Qi-VXR"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="SBw-Ut-4wg" secondAttribute="trailing" constant="112" id="pUG-N3-HoX"/>
-                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="SBw-Ut-4wg" secondAttribute="bottom" constant="96" id="rUG-hr-I7v"/>
-                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="20" id="rYq-qR-TUc"/>
-                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="536" id="ufU-l4-6iC"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="SBw-Ut-4wg" secondAttribute="trailing" constant="38" id="1wQ-mA-sIW"/>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" id="4bz-7P-hWg"/>
+                            <constraint firstItem="OHA-93-23A" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="80" id="F2a-1i-avw"/>
+                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="16" id="NCo-R6-EcM"/>
+                            <constraint firstItem="OHA-93-23A" firstAttribute="top" secondItem="JdC-dF-3Wj" secondAttribute="bottom" constant="10" id="d6V-Gy-8Xp"/>
+                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="leading" secondItem="jTR-AD-4Zx" secondAttribute="leading" constant="37" id="gkC-Hi-3rX"/>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="top" secondItem="OHA-93-23A" secondAttribute="bottom" constant="5" id="jXj-Fa-FIJ"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="bottom" secondItem="SBw-Ut-4wg" secondAttribute="bottom" constant="105" id="kWA-rw-6IU"/>
+                            <constraint firstItem="JdC-dF-3Wj" firstAttribute="top" secondItem="jTR-AD-4Zx" secondAttribute="top" constant="20" id="m6b-4A-ZMX"/>
+                            <constraint firstItem="lf1-iZ-n6m" firstAttribute="trailing" secondItem="jTR-AD-4Zx" secondAttribute="trailing" id="qgo-zg-AMg"/>
+                            <constraint firstItem="SBw-Ut-4wg" firstAttribute="top" secondItem="lf1-iZ-n6m" secondAttribute="bottom" constant="27" id="wJD-8a-axk"/>
+                            <constraint firstItem="jTR-AD-4Zx" firstAttribute="trailing" secondItem="OHA-93-23A" secondAttribute="trailing" constant="80" id="xVA-JX-QFv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="baO-Ri-2WD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Enn-hi-K6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3793" y="750"/>
+            <point key="canvasLocation" x="3020" y="749.7751124437782"/>
         </scene>
         <!--Iiyudaner Profile View Controller-->
         <scene sceneID="9AG-w1-VSg">
@@ -1571,10 +1584,10 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f3g-Yz-ea2"/>
+        <segue reference="w0F-NM-bhB"/>
         <segue reference="AvQ-PU-43V"/>
         <segue reference="MCM-Tb-nQS"/>
-        <segue reference="oJL-QV-ObD"/>
+        <segue reference="VRP-1N-YHs"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="JJ6-8q-zYT"/>

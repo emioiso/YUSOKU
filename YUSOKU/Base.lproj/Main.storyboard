@@ -17,98 +17,95 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-Yz-Doe">
-                                <rect key="frame" x="52" y="146" width="270.5" height="50"/>
-                                <color key="tintColor" red="0.88627450980392153" green="0.63921568627450975" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の専用ロッカー🔓"/>
-                                <connections>
-                                    <segue destination="15e-cm-eqr" kind="show" id="k72-Cc-SK3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-1K-37T">
-                                <rect key="frame" x="104.5" y="460" width="160.5" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="GEK-UI-AUO" kind="show" id="GoF-rk-zc7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ts-xu-e7N">
-                                <rect key="frame" x="98" y="228" width="175" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILw-5v-Ihc">
-                                <rect key="frame" x="16" y="27" width="160" height="50"/>
+                                <rect key="frame" x="16" y="30" width="160" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AIx-XN-Ktn"/>
+                                    <constraint firstAttribute="width" constant="160" id="Tcc-7E-vor"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="sVH-9R-Syh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4p-CC-KrG">
-                                <rect key="frame" x="98" y="308" width="175" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdY-Yu-0bf">
-                                <rect key="frame" x="98" y="385" width="175" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
-                                <rect key="frame" x="105.5" y="529" width="159.5" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
-                                <connections>
-                                    <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sxj-NZ-sck">
+                                <rect key="frame" x="37" y="120" width="300" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rag-Yz-Doe">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="C39-9t-7dV"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.88627450980392153" green="0.63921568627450975" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の専用ロッカー🔓"/>
+                                        <connections>
+                                            <segue destination="15e-cm-eqr" kind="show" id="k72-Cc-SK3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ts-xu-e7N">
+                                        <rect key="frame" x="0.0" y="60" width="300" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdY-Yu-0bf">
+                                        <rect key="frame" x="0.0" y="120" width="300" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4p-CC-KrG">
+                                        <rect key="frame" x="0.0" y="180" width="300" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="未契約のロッカー🔐"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="AgL-as-Apc"/>
+                                    <constraint firstAttribute="height" constant="230" id="LaM-Tk-rLj"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rRh-8U-I3G">
+                                <rect key="frame" x="112" y="501" width="151.5" height="74"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9V-1K-37T">
+                                        <rect key="frame" x="0.0" y="0.0" width="151.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                        <connections>
+                                            <segue destination="GEK-UI-AUO" kind="show" id="GoF-rk-zc7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-Jo-qXG">
+                                        <rect key="frame" x="0.0" y="39.5" width="151.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
+                                        <connections>
+                                            <segue destination="bEU-X5-tCf" kind="show" id="qqm-gr-Pl7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lta-9w-Fdb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="top" secondItem="rag-Yz-Doe" secondAttribute="bottom" constant="32" id="0hr-V4-XWe"/>
-                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="228" id="4wh-ZD-JWf"/>
-                            <constraint firstItem="G9V-1K-37T" firstAttribute="top" secondItem="gdY-Yu-0bf" secondAttribute="bottom" constant="25" id="5Yv-oN-jrc"/>
-                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="529" id="7ax-FK-TfD"/>
-                            <constraint firstItem="T4p-CC-KrG" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="308" id="BPi-3L-fvx"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="gdY-Yu-0bf" secondAttribute="trailing" constant="102" id="I9K-27-PQy"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="8Ts-xu-e7N" secondAttribute="bottom" constant="389" id="IPu-3h-rBl"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="rag-Yz-Doe" secondAttribute="bottom" constant="471" id="KHU-lH-XvK"/>
-                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="top" secondItem="G9V-1K-37T" secondAttribute="bottom" constant="19" id="LAJ-8M-Rh4"/>
-                            <constraint firstItem="gdY-Yu-0bf" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="98" id="NiF-0g-gJW"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="T4p-CC-KrG" secondAttribute="bottom" constant="309" id="Nk1-NK-yq6"/>
-                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="27" id="OvK-ch-1su"/>
-                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="16" id="QA0-gf-i4T"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="gdY-Yu-0bf" secondAttribute="bottom" constant="232" id="Ror-Ud-eJF"/>
-                            <constraint firstItem="Aei-Jo-qXG" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="105.5" id="SGn-Wa-1M7"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="ILw-5v-Ihc" secondAttribute="trailing" constant="199" id="SdD-h8-xd9"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="ILw-5v-Ihc" secondAttribute="bottom" constant="590" id="Tk3-DQ-NJE"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="Aei-Jo-qXG" secondAttribute="trailing" constant="110" id="XK2-Ge-kdF"/>
-                            <constraint firstItem="rag-Yz-Doe" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="52" id="Z7P-nn-PUk"/>
-                            <constraint firstItem="G9V-1K-37T" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="104.5" id="aEL-DR-hfl"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="8Ts-xu-e7N" secondAttribute="trailing" constant="102" id="bGs-d1-zOV"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="T4p-CC-KrG" secondAttribute="trailing" constant="102" id="bwy-bF-jhl"/>
-                            <constraint firstItem="rag-Yz-Doe" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="146" id="cg4-5E-H9A"/>
-                            <constraint firstItem="T4p-CC-KrG" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="98" id="fFt-lU-wcb"/>
-                            <constraint firstItem="T4p-CC-KrG" firstAttribute="top" secondItem="8Ts-xu-e7N" secondAttribute="bottom" constant="30" id="gik-ys-EjA"/>
-                            <constraint firstItem="gdY-Yu-0bf" firstAttribute="top" secondItem="T4p-CC-KrG" secondAttribute="bottom" constant="27" id="mr1-ay-Mb8"/>
-                            <constraint firstItem="8Ts-xu-e7N" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="98" id="mxh-T8-QGb"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="Aei-Jo-qXG" secondAttribute="bottom" constant="88" id="p7O-oi-9Ad"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="rag-Yz-Doe" secondAttribute="trailing" constant="52.5" id="rpN-ee-j9o"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="bottom" secondItem="G9V-1K-37T" secondAttribute="bottom" constant="157" id="wP6-aL-bUM"/>
-                            <constraint firstItem="G9V-1K-37T" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="460" id="xkh-b4-yRT"/>
-                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="G9V-1K-37T" secondAttribute="trailing" constant="110" id="xsf-fW-D46"/>
-                            <constraint firstItem="gdY-Yu-0bf" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="385" id="zXB-Wp-tMu"/>
+                            <constraint firstItem="rRh-8U-I3G" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="112" id="4zO-Nx-yNy"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="rRh-8U-I3G" secondAttribute="trailing" constant="111.5" id="9xG-gR-SjE"/>
+                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="30" id="EFU-Qp-XXO"/>
+                            <constraint firstItem="sxj-NZ-sck" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="37" id="G1C-df-R4E"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="sxj-NZ-sck" secondAttribute="trailing" constant="38" id="IbP-Jg-8cN"/>
+                            <constraint firstItem="rRh-8U-I3G" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="501" id="LfD-rP-Xy2"/>
+                            <constraint firstItem="lta-9w-Fdb" firstAttribute="trailing" secondItem="ILw-5v-Ihc" secondAttribute="trailing" constant="199" id="O1p-67-8q1"/>
+                            <constraint firstItem="sxj-NZ-sck" firstAttribute="top" secondItem="lta-9w-Fdb" secondAttribute="top" constant="120" id="S6A-NH-Hci"/>
+                            <constraint firstItem="ILw-5v-Ihc" firstAttribute="leading" secondItem="lta-9w-Fdb" secondAttribute="leading" constant="16" id="fSu-yX-gAk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="gfP-z1-jfA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdY-Y5-cAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1444" y="107.49625187406298"/>
+            <point key="canvasLocation" x="1121" y="108"/>
         </scene>
         <!--Lockers For Tanaka View Controller-->
         <scene sceneID="OgA-uf-dqS">
@@ -1317,22 +1314,6 @@ XXX湯
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
-                                <rect key="frame" x="74" y="387" width="60" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="男湯"/>
-                                <connections>
-                                    <segue destination="GTR-XQ-7kx" kind="show" id="iVa-tV-zlj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
-                                <rect key="frame" x="240" y="387" width="60" height="50"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="女湯"/>
-                                <connections>
-                                    <segue destination="CHA-i9-h1M" kind="show" id="cJl-Yh-Kmt"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9f0-Dz-eaz">
                                 <rect key="frame" x="123" y="440" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1340,24 +1321,6 @@ XXX湯
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
-                                <rect key="frame" x="112" y="528" width="160" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
-                                <connections>
-                                    <segue destination="bEU-X5-tCf" kind="show" id="mIg-hL-7hN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
-                                <rect key="frame" x="115.5" y="459" width="151.5" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
-                                <connections>
-                                    <segue destination="GEK-UI-AUO" kind="show" id="dYj-TQ-O1b"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＼ イラッシャイマセ！／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
                                 <rect key="frame" x="95" y="88" width="200" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1365,57 +1328,79 @@ XXX湯
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaF-Vm-Kzq">
-                                <rect key="frame" x="320" y="246" width="50" height="106"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="0zc-F6-mzk"/>
-                                    <constraint firstAttribute="height" constant="106" id="Mbm-ua-Ke2"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaF-Vm-Kzq">
+                                <rect key="frame" x="320" y="246" width="47" height="1064"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="🚪"/>
                                 <connections>
                                     <segue destination="JK7-cC-eRt" kind="show" id="NYX-AD-z91"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
                                 <rect key="frame" x="22" y="30" width="110" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="6gX-qZ-sqb"/>
-                                    <constraint firstAttribute="width" constant="110" id="6h3-MM-z0T"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎またネ♨️"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pty-i6-O5C"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="pFX-pV-mes">
-                                <rect key="frame" x="-395" y="134" width="1165" height="200"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="g5t-EL-jeF">
+                                <rect key="frame" x="116" y="499" width="151.5" height="74"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
+                                        <rect key="frame" x="0.0" y="0.0" width="151.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
+                                        <connections>
+                                            <segue destination="GEK-UI-AUO" kind="show" id="dYj-TQ-O1b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
+                                        <rect key="frame" x="0.0" y="39.5" width="151.5" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
+                                        <connections>
+                                            <segue destination="bEU-X5-tCf" kind="show" id="mIg-hL-7hN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="ivT-CF-yfz">
+                                <rect key="frame" x="95" y="397" width="212" height="34.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="男湯"/>
+                                        <connections>
+                                            <segue destination="GTR-XQ-7kx" kind="show" id="iVa-tV-zlj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
+                                        <rect key="frame" x="156" y="0.0" width="56" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="女湯"/>
+                                        <connections>
+                                            <segue destination="CHA-i9-h1M" kind="show" id="cJl-Yh-Kmt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="cdR-9Z-CxH">
+                                <rect key="frame" x="61" y="-366" width="253" height="1259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZW0-mg-cu8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="I2a-iT-jT3" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="74" id="3BJ-oK-Hkb"/>
-                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="FaF-Vm-Kzq" secondAttribute="trailing" constant="5" id="7Qt-5k-neC"/>
-                            <constraint firstItem="hvZ-Jf-6cV" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="387" id="9XE-pH-GDY"/>
-                            <constraint firstItem="CQv-rd-ndd" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="30" id="AUL-Xl-aZ9"/>
-                            <constraint firstItem="hvZ-Jf-6cV" firstAttribute="leading" secondItem="I2a-iT-jT3" secondAttribute="trailing" constant="106" id="RiL-hM-Zmb"/>
-                            <constraint firstItem="CQv-rd-ndd" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="22" id="V5w-0C-JNH"/>
-                            <constraint firstItem="I2a-iT-jT3" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="387" id="iVS-jb-Rff"/>
-                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="I2a-iT-jT3" secondAttribute="bottom" constant="230" id="kXE-bS-rHc"/>
-                            <constraint firstItem="hvZ-Jf-6cV" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="240" id="pem-El-fRg"/>
-                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="CQv-rd-ndd" secondAttribute="trailing" constant="243" id="t03-NQ-fKD"/>
-                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="hvZ-Jf-6cV" secondAttribute="bottom" constant="230" id="y19-VF-PNQ"/>
-                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="hvZ-Jf-6cV" secondAttribute="trailing" constant="75" id="yKY-79-NYn"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WAS-zz-pzc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j3B-ie-xB2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837.60000000000002" y="106.59670164917542"/>
+            <point key="canvasLocation" x="838" y="108"/>
         </scene>
         <!--Genkan View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1426,7 +1411,11 @@ XXX湯
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx0-CN-JGT">
-                                <rect key="frame" x="164" y="316.5" width="47" height="34.5"/>
+                                <rect key="frame" x="162.5" y="308.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KwV-mL-MZD"/>
+                                    <constraint firstAttribute="width" constant="50" id="jJz-xW-5rK"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="♨️"/>
                                 <connections>
@@ -1449,11 +1438,11 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UUe-sq-fJV"/>
+        <segue reference="sVH-9R-Syh"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="mIg-hL-7hN"/>
-        <segue reference="dYj-TQ-O1b"/>
-        <segue reference="rcw-se-rBH"/>
+        <segue reference="qqm-gr-Pl7"/>
+        <segue reference="GoF-rk-zc7"/>
+        <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="iVa-tV-zlj"/>
     </inferredMetricsTieBreakers>

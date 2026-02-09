@@ -539,7 +539,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMm-to-gNe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="838" y="750"/>
+            <point key="canvasLocation" x="837.60000000000002" y="749.7751124437782"/>
         </scene>
         <!--Guest In The Bath View Controller-->
         <scene sceneID="9Jn-wj-fAz">
@@ -549,61 +549,66 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ゲスト入浴" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeT-dA-Tyc">
-                                <rect key="frame" x="147" y="74" width="80" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="7DJ-Tj-hSZ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YUKIROKUkun _cleanning" translatesAutoresizingMaskIntoConstraints="NO" id="i0Z-cB-ltA">
-                                <rect key="frame" x="16" y="200" width="343" height="1024"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xO5-iF-rls">
-                                <rect key="frame" x="16" y="20" width="156" height="847"/>
+                                <rect key="frame" x="16" y="20" width="156" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34.5" id="v4C-nY-bjB"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎待合室に戻る🛋️"/>
                                 <connections>
                                     <segue destination="D5B-8a-BDJ" kind="show" id="eT9-OX-BpN"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feR-vn-pCm">
-                                <rect key="frame" x="35" y="132" width="307" height="100"/>
-                                <string key="text">ごめんよ！
-＼ 今清掃中だからチョッコシ待ってて！／</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g7k-VT-ZpR">
+                                <rect key="frame" x="26" y="71" width="323" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ゲスト入浴" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeT-dA-Tyc">
+                                        <rect key="frame" x="0.0" y="0.0" width="323" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feR-vn-pCm">
+                                        <rect key="frame" x="0.0" y="20.5" width="323" height="41"/>
+                                        <string key="text">ごめんよ！
+＼ 今、清掃中だからチョッコシ待ってて！／</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61.5" id="Kin-uH-Q1m"/>
+                                    <constraint firstAttribute="width" constant="323" id="iPM-j9-d0T"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YUKIROKUkun _cleanning" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-NX-WA1">
+                                <rect key="frame" x="0.0" y="130" width="375" height="264"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="dbV-NB-eIB"/>
+                                    <constraint firstAttribute="height" constant="264" id="s1p-gd-ohT"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ntc-kA-gsl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="feR-vn-pCm" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="35" id="2RH-2f-DcD"/>
-                            <constraint firstItem="TeT-dA-Tyc" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="10" id="8w9-7O-50U"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="TeT-dA-Tyc" secondAttribute="trailing" constant="148" id="9Ya-jn-Nu5"/>
-                            <constraint firstItem="i0Z-cB-ltA" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="200" id="GZR-jb-uZ0"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="i0Z-cB-ltA" secondAttribute="trailing" constant="16" id="O7R-vF-9Wq"/>
-                            <constraint firstItem="xO5-iF-rls" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="16" id="OqE-9w-g01"/>
-                            <constraint firstItem="feR-vn-pCm" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="132" id="f4q-AE-ctd"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="xO5-iF-rls" secondAttribute="trailing" constant="203" id="fT5-nW-ZSa"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="feR-vn-pCm" secondAttribute="bottom" constant="415" id="fki-qm-95u"/>
-                            <constraint firstItem="TeT-dA-Tyc" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="147" id="gmp-1U-9R8"/>
-                            <constraint firstItem="i0Z-cB-ltA" firstAttribute="top" secondItem="feR-vn-pCm" secondAttribute="bottom" constant="-32" id="pa2-0B-bZD"/>
-                            <constraint firstItem="i0Z-cB-ltA" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="16" id="poP-Bp-mRm"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="xO5-iF-rls" secondAttribute="bottom" constant="577" id="tRd-Am-n8Z"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="feR-vn-pCm" secondAttribute="trailing" constant="33" id="v4n-9J-uki"/>
-                            <constraint firstItem="xO5-iF-rls" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="20" id="xvD-CX-jub"/>
-                            <constraint firstItem="ntc-kA-gsl" firstAttribute="bottom" secondItem="i0Z-cB-ltA" secondAttribute="bottom" constant="220" id="zli-1u-fpq"/>
+                            <constraint firstItem="g7k-VT-ZpR" firstAttribute="top" secondItem="xO5-iF-rls" secondAttribute="bottom" constant="16.5" id="Tss-yy-3i7"/>
+                            <constraint firstItem="g7k-VT-ZpR" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="26" id="YEH-MC-onI"/>
+                            <constraint firstItem="xO5-iF-rls" firstAttribute="top" secondItem="ntc-kA-gsl" secondAttribute="top" constant="20" id="Zcu-AK-QKr"/>
+                            <constraint firstItem="Rd9-NX-WA1" firstAttribute="top" secondItem="xO5-iF-rls" secondAttribute="bottom" constant="75.5" id="hea-TV-Idt"/>
+                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="g7k-VT-ZpR" secondAttribute="trailing" constant="26" id="iYG-ze-jZJ"/>
+                            <constraint firstItem="xO5-iF-rls" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" constant="16" id="isc-2m-BUG"/>
+                            <constraint firstItem="ntc-kA-gsl" firstAttribute="trailing" secondItem="xO5-iF-rls" secondAttribute="trailing" constant="203" id="jhY-9L-eQL"/>
+                            <constraint firstItem="Rd9-NX-WA1" firstAttribute="leading" secondItem="ntc-kA-gsl" secondAttribute="leading" id="reS-Wh-4ep"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Gqe-5U-Yh6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8G7-0K-dkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1974" y="750"/>
+            <point key="canvasLocation" x="1444" y="750"/>
         </scene>
         <!--Jouren In The Bath View Controller-->
         <scene sceneID="xLD-XL-cYU">
@@ -1533,10 +1538,10 @@ XXX湯
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sVH-9R-Syh"/>
+        <segue reference="eT9-OX-BpN"/>
         <segue reference="AvQ-PU-43V"/>
-        <segue reference="qqm-gr-Pl7"/>
-        <segue reference="GoF-rk-zc7"/>
+        <segue reference="MCM-Tb-nQS"/>
+        <segue reference="lQP-3f-WfR"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
         <segue reference="dFc-zm-v9x"/>

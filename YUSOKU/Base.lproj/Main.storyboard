@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PdY-Y5-cAO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1121" y="108"/>
+            <point key="canvasLocation" x="1444" y="108"/>
         </scene>
         <!--Lockers For Tanaka View Controller-->
         <scene sceneID="OgA-uf-dqS">
@@ -116,55 +116,62 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ban-BL-GHg">
-                                <rect key="frame" x="16" y="27" width="160" height="50"/>
+                                <rect key="frame" x="16" y="20" width="160" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="sI7-1h-l6f"/>
+                                    <constraint firstAttribute="height" constant="34.5" id="xdj-cg-LYn"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎脱衣所に戻る🧺"/>
                                 <connections>
                                     <segue destination="GTR-XQ-7kx" kind="show" id="JJ6-8q-zYT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4j-vE-AfK">
-                                <rect key="frame" x="91.5" y="141" width="200.5" height="50"/>
-                                <color key="tintColor" red="0.8862745098" green="0.63921568630000003" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)風呂RTA"/>
-                                <connections>
-                                    <segue destination="Wr9-r0-XcM" kind="show" id="ZxN-gX-BNu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWd-Bh-hen">
-                                <rect key="frame" x="27" y="231" width="320" height="50"/>
-                                <color key="tintColor" red="0.8862745098" green="0.63921568630000003" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の黒塗り承諾書を見る📃"/>
-                                <connections>
-                                    <segue destination="3VK-a4-UBi" kind="showDetail" id="Gw1-C6-aLi"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8DS-TK-DDZ">
+                                <rect key="frame" x="28" y="119" width="300" height="110"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4j-vE-AfK">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                        <color key="tintColor" red="0.8862745098" green="0.63921568630000003" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)風呂RTA"/>
+                                        <connections>
+                                            <segue destination="Wr9-r0-XcM" kind="show" id="ZxN-gX-BNu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sWd-Bh-hen">
+                                        <rect key="frame" x="0.0" y="60" width="300" height="50"/>
+                                        <color key="tintColor" red="0.8862745098" green="0.63921568630000003" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="タナカさん(仮)の黒塗り承諾書を見る📃"/>
+                                        <connections>
+                                            <segue destination="3VK-a4-UBi" kind="showDetail" id="Gw1-C6-aLi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Ne9-9H-wd0"/>
+                                    <constraint firstAttribute="height" constant="110" id="YeW-K8-YE1"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="iHG-ev-JJQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="o4j-vE-AfK" secondAttribute="trailing" constant="83" id="3xn-9H-4Yo"/>
-                            <constraint firstItem="sWd-Bh-hen" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="27" id="Oc6-ZU-vNM"/>
-                            <constraint firstItem="ban-BL-GHg" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="16" id="Orb-XL-jIe"/>
-                            <constraint firstItem="o4j-vE-AfK" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="141" id="PPg-dt-jUq"/>
-                            <constraint firstItem="sWd-Bh-hen" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="231" id="PU5-Wh-dEX"/>
-                            <constraint firstItem="o4j-vE-AfK" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="91.5" id="WiF-4q-qCO"/>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="ban-BL-GHg" secondAttribute="bottom" constant="590" id="cuw-GX-dYN"/>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="sWd-Bh-hen" secondAttribute="bottom" constant="386" id="f3r-Kd-5rG"/>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="sWd-Bh-hen" secondAttribute="trailing" constant="28" id="j5u-qA-lji"/>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="ban-BL-GHg" secondAttribute="trailing" constant="199" id="kz9-Y0-6tG"/>
-                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="o4j-vE-AfK" secondAttribute="bottom" constant="476" id="nY8-qc-Wkb"/>
-                            <constraint firstItem="sWd-Bh-hen" firstAttribute="top" secondItem="o4j-vE-AfK" secondAttribute="bottom" constant="40" id="oIG-4p-12S"/>
-                            <constraint firstItem="ban-BL-GHg" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="27" id="scm-l1-o4p"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="bottom" secondItem="8DS-TK-DDZ" secondAttribute="bottom" constant="438" id="EWv-Jl-5H5"/>
+                            <constraint firstItem="8DS-TK-DDZ" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="28" id="OyR-zE-vmQ"/>
+                            <constraint firstItem="8DS-TK-DDZ" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="119" id="Qqr-25-ZDc"/>
+                            <constraint firstItem="ban-BL-GHg" firstAttribute="top" secondItem="iHG-ev-JJQ" secondAttribute="top" constant="20" id="RFq-vh-oFq"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="8DS-TK-DDZ" secondAttribute="trailing" constant="47" id="hXB-Xu-AgK"/>
+                            <constraint firstItem="ban-BL-GHg" firstAttribute="leading" secondItem="iHG-ev-JJQ" secondAttribute="leading" constant="16" id="iGH-F5-5Vd"/>
+                            <constraint firstItem="iHG-ev-JJQ" firstAttribute="trailing" secondItem="ban-BL-GHg" secondAttribute="trailing" constant="199" id="kSE-xp-0N3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jGA-Ti-42d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4c-Am-qOA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2012" y="108"/>
+            <point key="canvasLocation" x="1780" y="108"/>
         </scene>
         <!--Ukun Sopwatch Room View Controller-->
         <scene sceneID="vYw-Ff-tp5">
@@ -1321,36 +1328,57 @@ XXX湯
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="＼ イラッシャイマセ！／" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
-                                <rect key="frame" x="95" y="88" width="200" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaF-Vm-Kzq">
-                                <rect key="frame" x="320" y="246" width="47" height="1064"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaF-Vm-Kzq">
+                                <rect key="frame" x="328" y="20" width="47" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="🚪"/>
                                 <connections>
                                     <segue destination="JK7-cC-eRt" kind="show" id="NYX-AD-z91"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
-                                <rect key="frame" x="22" y="30" width="110" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQv-rd-ndd">
+                                <rect key="frame" x="16" y="20" width="108" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎またネ♨️"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="pty-i6-O5C"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="g5t-EL-jeF">
-                                <rect key="frame" x="116" y="499" width="151.5" height="74"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="g5t-EL-jeF">
+                                <rect key="frame" x="37" y="402" width="300" height="160"/>
                                 <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="0po-yy-ZrC">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igY-Bl-cPo">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="ks4-gz-57g"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="男湯♨️"/>
+                                                <connections>
+                                                    <segue destination="GTR-XQ-7kx" kind="show" id="dFc-zm-v9x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7y-69-7jV">
+                                                <rect key="frame" x="200" y="0.0" width="100" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="2a9-93-XPN"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="女湯♨️"/>
+                                                <connections>
+                                                    <segue destination="CHA-i9-h1M" kind="show" id="awD-qm-LRn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB0-i5-tkF">
-                                        <rect key="frame" x="0.0" y="0.0" width="151.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="55" width="300" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="kOs-eH-UOs"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="ゲスト入浴をする"/>
                                         <connections>
@@ -1358,7 +1386,7 @@ XXX湯
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="if5-VX-aB8">
-                                        <rect key="frame" x="0.0" y="39.5" width="151.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="110" width="300" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="遠隔常連になる"/>
                                         <connections>
@@ -1366,41 +1394,50 @@ XXX湯
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="5DW-7m-5yx"/>
+                                </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="ivT-CF-yfz">
-                                <rect key="frame" x="95" y="397" width="212" height="34.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2a-iT-jT3">
-                                        <rect key="frame" x="0.0" y="0.0" width="56" height="34.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="男湯"/>
-                                        <connections>
-                                            <segue destination="GTR-XQ-7kx" kind="show" id="iVa-tV-zlj"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvZ-Jf-6cV">
-                                        <rect key="frame" x="156" y="0.0" width="56" height="34.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="女湯"/>
-                                        <connections>
-                                            <segue destination="CHA-i9-h1M" kind="show" id="cJl-Yh-Kmt"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="cdR-9Z-CxH">
-                                <rect key="frame" x="61" y="-366" width="253" height="1259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＼ イラッシャイマセ！／" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWM-3Y-u2I">
+                                <rect key="frame" x="37.5" y="92" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AON-5f-sp0"/>
+                                    <constraint firstAttribute="width" constant="300" id="NCz-Ad-ZC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YUKIROKukunBandai" translatesAutoresizingMaskIntoConstraints="NO" id="26c-pW-Gdw">
+                                <rect key="frame" x="0.0" y="80" width="375" height="360"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZW0-mg-cu8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FaF-Vm-Kzq" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="328" id="14B-7x-SpA"/>
+                            <constraint firstItem="pWM-3Y-u2I" firstAttribute="centerX" secondItem="wqa-RC-nNT" secondAttribute="centerX" id="9Bd-sv-uvb"/>
+                            <constraint firstItem="CQv-rd-ndd" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="16" id="Fbr-pb-htU"/>
+                            <constraint firstItem="CQv-rd-ndd" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="20" id="IG5-1V-0Ds"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="g5t-EL-jeF" secondAttribute="bottom" constant="105" id="JZo-rP-wqp"/>
+                            <constraint firstItem="pWM-3Y-u2I" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="92" id="Y6Q-Hl-xXi"/>
+                            <constraint firstItem="26c-pW-Gdw" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="80" id="YyF-q7-Lud"/>
+                            <constraint firstItem="FaF-Vm-Kzq" firstAttribute="trailing" secondItem="ZW0-mg-cu8" secondAttribute="trailing" id="crs-rP-xpD"/>
+                            <constraint firstItem="26c-pW-Gdw" firstAttribute="trailing" secondItem="ZW0-mg-cu8" secondAttribute="trailing" id="fGh-kj-V9H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CQv-rd-ndd" secondAttribute="trailing" constant="235" id="fRV-rI-q3L"/>
+                            <constraint firstItem="FaF-Vm-Kzq" firstAttribute="top" secondItem="ZW0-mg-cu8" secondAttribute="top" constant="20" id="gDQ-eB-mHj"/>
+                            <constraint firstItem="26c-pW-Gdw" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" id="n1R-Ls-NNi"/>
+                            <constraint firstItem="g5t-EL-jeF" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="37" id="sk9-GZ-9Yg"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="trailing" secondItem="g5t-EL-jeF" secondAttribute="trailing" constant="38" id="uZs-yc-TQs"/>
+                            <constraint firstItem="CQv-rd-ndd" firstAttribute="leading" secondItem="ZW0-mg-cu8" secondAttribute="leading" constant="16" id="wqP-La-JJC"/>
+                            <constraint firstItem="ZW0-mg-cu8" firstAttribute="bottom" secondItem="26c-pW-Gdw" secondAttribute="bottom" constant="227" id="xhR-NX-VsR"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WAS-zz-pzc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j3B-ie-xB2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="838" y="108"/>
+            <point key="canvasLocation" x="837.60000000000002" y="107.49625187406298"/>
         </scene>
         <!--Genkan View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -1444,11 +1481,11 @@ XXX湯
         <segue reference="GoF-rk-zc7"/>
         <segue reference="ZxN-gX-BNu"/>
         <segue reference="k72-Cc-SK3"/>
-        <segue reference="iVa-tV-zlj"/>
+        <segue reference="JJ6-8q-zYT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YUKIROKUkun _cleanning" width="1024" height="1024"/>
-        <image name="YUKIROKukunBandai" width="1165" height="1259"/>
+        <image name="YUKIROKukunBandai" width="1536" height="1024"/>
         <image name="iiyudaner" width="1162" height="1333"/>
         <image name="iiyudanerTop" width="874" height="1036"/>
         <image name="myNumber" width="178" height="120"/>

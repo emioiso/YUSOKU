@@ -362,7 +362,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbl-ps-sv7">
-                                <rect key="frame" x="16" y="25" width="277" height="50"/>
+                                <rect key="frame" x="16" y="20" width="277" height="34.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34.5" id="bBn-ev-Opk"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="◀︎タナカさん(仮)のロッカーに戻る"/>
                                 <connections>
@@ -370,36 +373,40 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="タナカさん(仮)の黒塗り承諾書📃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vco-Fd-5Om">
-                                <rect key="frame" x="62.5" y="85" width="250" height="50"/>
+                                <rect key="frame" x="62" y="74.5" width="250" height="34.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="UMt-tV-Dr2"/>
-                                    <constraint firstAttribute="height" constant="50" id="h5E-15-Msh"/>
+                                    <constraint firstAttribute="height" constant="34.5" id="YN1-DN-itE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tanakaKuronuri" translatesAutoresizingMaskIntoConstraints="NO" id="YJ9-jF-ow7">
-                                <rect key="frame" x="67" y="171" width="240" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tanakaKuronuri" translatesAutoresizingMaskIntoConstraints="NO" id="YJ9-jF-ow7">
+                                <rect key="frame" x="67" y="124" width="240" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="1Oe-Yo-d6r"/>
+                                    <constraint firstAttribute="width" constant="240" id="eNY-sj-D8b"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8lE-ni-zA0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vco-Fd-5Om" firstAttribute="top" secondItem="Nbl-ps-sv7" secondAttribute="bottom" constant="10" id="AOT-Xe-nuh"/>
-                            <constraint firstItem="Nbl-ps-sv7" firstAttribute="top" secondItem="8lE-ni-zA0" secondAttribute="top" constant="25" id="EIn-SP-YhF"/>
-                            <constraint firstItem="8lE-ni-zA0" firstAttribute="bottom" secondItem="Nbl-ps-sv7" secondAttribute="bottom" constant="592" id="Ry2-ry-Tue"/>
-                            <constraint firstItem="vco-Fd-5Om" firstAttribute="leading" secondItem="8lE-ni-zA0" secondAttribute="leading" constant="62.5" id="gBf-TQ-HBP"/>
-                            <constraint firstItem="8lE-ni-zA0" firstAttribute="trailing" secondItem="vco-Fd-5Om" secondAttribute="trailing" constant="62.5" id="nuV-xT-jlh"/>
-                            <constraint firstItem="Nbl-ps-sv7" firstAttribute="leading" secondItem="8lE-ni-zA0" secondAttribute="leading" constant="16" id="oKc-Kw-seR"/>
-                            <constraint firstItem="8lE-ni-zA0" firstAttribute="trailing" secondItem="Nbl-ps-sv7" secondAttribute="trailing" constant="82" id="vJ5-iC-JWw"/>
+                            <constraint firstItem="8lE-ni-zA0" firstAttribute="trailing" secondItem="Nbl-ps-sv7" secondAttribute="trailing" constant="82" id="2wf-F0-JYW"/>
+                            <constraint firstItem="vco-Fd-5Om" firstAttribute="leading" secondItem="8lE-ni-zA0" secondAttribute="leading" constant="62" id="43x-3m-oly"/>
+                            <constraint firstItem="Nbl-ps-sv7" firstAttribute="top" secondItem="8lE-ni-zA0" secondAttribute="top" constant="20" id="EAw-sb-zLg"/>
+                            <constraint firstItem="vco-Fd-5Om" firstAttribute="top" secondItem="Nbl-ps-sv7" secondAttribute="bottom" constant="20" id="FOT-Q8-xDB"/>
+                            <constraint firstItem="8lE-ni-zA0" firstAttribute="trailing" secondItem="vco-Fd-5Om" secondAttribute="trailing" constant="63" id="g6T-Vm-xrT"/>
+                            <constraint firstItem="8lE-ni-zA0" firstAttribute="trailing" secondItem="YJ9-jF-ow7" secondAttribute="trailing" constant="68" id="hsc-Z6-N02"/>
+                            <constraint firstItem="YJ9-jF-ow7" firstAttribute="top" secondItem="vco-Fd-5Om" secondAttribute="bottom" constant="15" id="obd-YY-3HI"/>
+                            <constraint firstItem="Nbl-ps-sv7" firstAttribute="leading" secondItem="8lE-ni-zA0" secondAttribute="leading" constant="16" id="rh9-kw-Nhc"/>
+                            <constraint firstItem="YJ9-jF-ow7" firstAttribute="leading" secondItem="8lE-ni-zA0" secondAttribute="leading" constant="67" id="ydQ-7D-pIz"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Co3-xW-vmT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3190" y="109"/>
+            <point key="canvasLocation" x="2992.8000000000002" y="106.59670164917542"/>
         </scene>
         <!--Onnayu View Controller-->
         <scene sceneID="2NY-B5-yeI">
@@ -1487,7 +1494,7 @@ XXX湯
         <segue reference="qqm-gr-Pl7"/>
         <segue reference="GoF-rk-zc7"/>
         <segue reference="ZxN-gX-BNu"/>
-        <segue reference="2pb-bu-Cya"/>
+        <segue reference="O47-U2-Goa"/>
         <segue reference="dFc-zm-v9x"/>
     </inferredMetricsTieBreakers>
     <resources>

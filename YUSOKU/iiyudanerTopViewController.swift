@@ -16,7 +16,7 @@ class iiyudanerTopViewController: UIViewController {
         super.viewDidLoad()
         
         bannerView = GADBannerView(adSize: GADAdSizeBanner)
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"//仮ID
+        bannerView.adUnitID = "ca-app-pub-7923877881339580/7534392851"//仮ID
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         addBannerViewToView(bannerView)
